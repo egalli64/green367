@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(161, 235, 161);
+}
+.log{
+    margin-left: 500px;
+    margin-top: 300px;
+}
+#titolo{
+    margin-left: 200px;
+    margin-bottom: 10px;
+}
+#home{
+    position: right bottom;
+}
