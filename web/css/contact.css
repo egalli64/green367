@@ -11,6 +11,7 @@ input[type=submit] {
     border-radius: 4px;
     cursor: pointer;
     margin-left: 12px;
+    margin-top: 10px;
   }
 
   .set-green {
@@ -25,12 +26,14 @@ input[type=submit] {
     border-radius: 4px;
     cursor: pointer;
     margin-left: 12px;
+    margin-top: 10px;
 
   }
 
   input[type=submit]:hover {
     background-color: #7fb897;
     opacity: 70%;
+  
   }
 input[type=reset]:hover {
     background-color: #98cfad;
@@ -38,8 +41,9 @@ input[type=reset]:hover {
   }
   .contatti {
     border-radius: 5px;
-    background-color: #cce4d6;
-    padding: 12px;
+    padding: 50px;
+    background-color: rgb(165, 204, 160);
+    margin-right: 10px;
   }
 
   input[type=text], select,textarea {
@@ -49,10 +53,11 @@ input[type=reset]:hover {
     border: 1px solid #ccc; 
     border-radius: 4px; 
     box-sizing: border-box; 
-    margin-top: 6px; 
-    margin-bottom: 16px; 
+   
+    /* margin-bottom: 16px;  */
     resize: vertical;
-    margin-left: 10px;
+    margin-left: 3px;
+    /* margin-right: 20px; */
   }
 
   /* textarea:focus {
