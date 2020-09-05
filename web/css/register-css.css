@@ -4,11 +4,19 @@
 #legend-register {
     margin-bottom: 30px;
     margin-top: 50px;
+    font-family: 'Merriweather', serif;
 }
 .lateral {
     background-color: lightgreen;
 }
 
-.stileBody{
+.central {
+    padding: 10px;
+    background-color: white;
+}
+.form-row {
+    font-family: 'Merriweather', serif;
+}
+.form-group {
     font-family: 'Merriweather', serif;
 }

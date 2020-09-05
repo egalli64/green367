@@ -1,6 +1,4 @@
-body{
-    background-color: rgb(161, 235, 161);
-}
+
 .log{
     margin-left: 500px;
     margin-top: 300px;
@@ -11,4 +9,9 @@ body{
 }
 #home{
     position: right bottom;
+}
+#form-col {
+    margin-top: 100px;
+    padding: 50px;
+    background-color: white;
 }

@@ -7,6 +7,10 @@ body{
     background-position: center center;
     
 }
+.pills-tab {
+       position: fixed;
+}
 .set-green {
     background-color: lightgreen;
+ 
 }
