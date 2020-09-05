@@ -14,3 +14,18 @@ body{
     background-color: lightgreen;
  
 }
+footer {
+left: 0;
+bottom: 0;
+width: 100%;
+background-color: darkgreen;
+color: white;
+margin-top: 20px;
+}
+.index-jumbo {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+#jumbo-text {
+    margin-top: 30px;
+}
