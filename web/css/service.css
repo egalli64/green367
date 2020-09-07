@@ -1,6 +1,22 @@
 body{
     background-color: lightgreen;
+
+   
 }
-h1{
-    margin-left:650px;
+#liste{
+    background-image: url(../pictures/ospedale.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    font-weight: bolder;
+margin-left: 50px;
+
 }
+#l1:hover{
+    color: lightgreen;
+    font-weight: 900;
+    font-size: xx-large ;
+ 
+
+}
+
