@@ -1,17 +1,18 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
-<html lang="it">
+<html>
 <head>
-<meta charset="utf-8">
+<meta charset="ISO-8859-1">
 <title>Chi siamo </title>
 <link rel="stylesheet" type="text/css" href="css/chisiamo.css">
 </head>
-
 <body>
 <h1>Chi siamo</h1>
 
 <h3> Benvenuto nella piattaforma regionale per la prenotazione dei servizi ospedalieri</h3>
 <p> Qui potrai prenotare le prestazioni ospedaliere che desideri, scegliendo l'ospedale che preferisci.
-Accedere ai servizi Ã¨ molto semplice!</p>
+Accedere ai servizi è molto semplice!</p>
 
 <ul> 
 <li> Compila il <a href="./register.html"> form di registrazione </a></li>
@@ -27,3 +28,4 @@ Accedere ai servizi Ã¨ molto semplice!</p>
 
     <a href="./index.html"> <input type="button" value= "Home"></a>
 </body>
+</html>
