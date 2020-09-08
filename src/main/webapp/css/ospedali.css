@@ -8,9 +8,22 @@ body{
     
 }
 
+.set-green {
+    background-color: lightgreen;
+ 
+}
+    
 #legend-register {
     margin-left: 20px;
     margin-bottom: 20px;
     margin-top: 20px;
 }
 
+footer {
+left: 0;
+bottom: 0;
+width: 100%;
+background-color: darkgreen;
+color: white;
+margin-top: 20px;
+}

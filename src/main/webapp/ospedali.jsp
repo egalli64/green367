@@ -14,7 +14,7 @@
 	<div class="col-4">
 		<legend id="legend-register">Lista Ospedali</legend>
 		<ul class="list-group">
-			<li class="list-group-item"><a href="l_ospedali/ospedale1.html">
+			<li class="list-group-item"><a href="l_ospedali/ospedale1.jsp">
 					OSPEDALE DI VIZZOLO PREDABISSI</a></li>
 			<li class="list-group-item"><a href="l_ospedali/ospedale2.html">
 					OSPEDALE BOLOGNINI - SERIATE </a></li>
