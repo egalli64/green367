@@ -38,11 +38,7 @@
 	</div>
 	</div>
 
-	<div class="col">
-		<p>
-			<a href="index.html">Go back</a>
-		</p>
-	</div>
+
 	<%@include file="footer.html"%>
 
 </body>
