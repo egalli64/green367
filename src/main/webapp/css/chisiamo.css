@@ -9,13 +9,11 @@ body {
 
 }
 
-.central {
-	 block-size: 50%;
+.text {
+	 block-size: 30%;
     padding: 10px;
     background-color: white;
+    font-family: 'Merriweather', serif;
     
 }
 
- p{
-	font-family: 'Merriweather', serif;
-}
