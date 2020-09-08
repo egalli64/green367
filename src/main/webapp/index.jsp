@@ -33,7 +33,7 @@
                     Le tue informazioni sono al sicuro, non dovrai più preoccuparti di nulla.
                     Cosa aspetti?
                 </p>
-                <p>Esegui il <a href="login.html">login</a> o <a href="register.html">registrati</a> al sito</p>
+                <p>Esegui il <a href="login.jsp">login</a> o <a href="register.jsp">registrati</a> al sito</p>
             </div>
         </div>
         <div class="col-1"></div>

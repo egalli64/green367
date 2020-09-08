@@ -22,12 +22,12 @@
 			semplice!</p>
 
 		<ul>
-			<li>Compila il <a href="./register.html"> form di
+			<li>Compila il <a href="./register.jsp"> form di
 					registrazione </a></li>
-			<li>Effettua il <a href="./login.html">login</a>con le tue
+			<li>Effettua il <a href="./login.jsp">login</a>con le tue
 				credenziali
 			</li>
-			<li>Scegli l'ospedale dalla nostra <a href="./ospedali.html"></a>
+			<li>Scegli l'ospedale dalla nostra <a href="./ospedali.jsp"></a>
 				lista </a>
 			</li>
 
@@ -38,10 +38,9 @@
 		<p>
 			Se dovessi riscontrare problemi nella compilazione del form o nella
 			scelta dell'ospedale, o per qualsiasi dubbio, non esitare a <a
-				href="./contact.html"> contattarci </a> !
+				href="./contact.jsp"> contattarci </a> !
 		</p>
 
-		<a href="./index.html"> <input type="button" value="Home"></a>
 		</div>
 		<div class="col-3"> </div>
 		</div>
