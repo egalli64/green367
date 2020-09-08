@@ -1,3 +1,9 @@
+.set-green {
+    background-color: lightgreen;
+ 
+}
+    
+
 body{
    
     background-image: url('../pictures/ospedale.jpg');
@@ -8,11 +14,7 @@ body{
     
 }
 
-.set-green {
-    background-color: lightgreen;
- 
-}
-    
+
 #legend-register {
     margin-left: 20px;
     margin-bottom: 20px;
