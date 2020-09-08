@@ -33,8 +33,7 @@
 1. Patrizia
 1. ...
 
-## Git
+## Release manager
+1. Elisa
 1. Mauro
 1. Davide
-1. ???
-1. ...
