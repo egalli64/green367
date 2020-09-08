@@ -1,3 +1,21 @@
 body {
-    background-color: rgb(161, 235, 161);
+   
+    background-image: url('../pictures/ospedale.jpg');
+    block-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    
+
+}
+
+.central {
+	 block-size: 50%;
+    padding: 10px;
+    background-color: white;
+    
+}
+
+ p{
+	font-family: 'Merriweather', serif;
 }
