@@ -8,6 +8,7 @@
 <link rel="stylesheet" type="text/css" href="css/chisiamo.css">
 </head>
 <body>
+<%@include file="nav.html"%>
 <h1>Chi siamo</h1>
 
 <h3> Benvenuto nella piattaforma regionale per la prenotazione dei servizi ospedalieri</h3>

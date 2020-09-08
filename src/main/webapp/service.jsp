@@ -17,6 +17,7 @@
 </script>
 </head>
 <body>
+<%@include file="nav.html"%>
 	<div class="container -fluid set-green">
 		<div class="row">
 			<div class="col-xl-5"></div>
