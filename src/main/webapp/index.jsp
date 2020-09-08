@@ -23,8 +23,8 @@
     </script>
 </head>
 <body>
-<%@include file="nav.html"%>
-    <div class="row">
+	<%@include file="nav.html"%>
+	<div class="row">
         <div class="col-1"></div>
         <div class="col-4">
             <div class="jumbotron index-jumbo">
