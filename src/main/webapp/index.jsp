@@ -10,8 +10,7 @@
 <meta name="viewport"
 	content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<link rel="stylesheet" type="text/css" href="css/index.css">
-
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap" rel="stylesheet">
 <link rel="stylesheet"
 	href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 
@@ -20,24 +19,23 @@
 	url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Dancing+Script:wght@600&family=Gayathri&family=Pacifico&family=Russo+One&display=swap')
 	;
 </style>
-
-
-
+<link rel="stylesheet" type="text/css" href="css/index.css">
 <script type="text/javascript" src="java/index.js" defer>
 	
 </script>
 </head>
+
 <body>
 	<%@include file="nav.html"%>
 	<c:if test="${correctLog}">
 		<div class="row" style="background-color: white;">
 			<div class="col-9"></div>
 			<div class="col-2">
-				<p>Logged in as: ${username}</p>
+				<p class="formLog">Logged in as: ${username}</p>
 			</div>
 			<div class="col">
 				<form action="logout">
-					<input type="submit" name="buttonLogout" value="Logout">
+					<input type="submit" class="btn btn-primary" name="buttonLogout" data-toggle="button" aria-pressed="false" value="Logout">
 				</form>
 			</div>
 		</div>
@@ -57,7 +55,7 @@
 				</c:if>
 				<c:if test="${correctLog}">
 					<h2>Grazie per il tuo supporto</h2>
-					<p>Ciao ${username}, grazie per il tuo supporto! Esplora il
+					<p>Ciao <i class="formLog">${username}</i>, grazie per il tuo supporto! Esplora il
 						nostro sito per scoprirne tutte le potenzialità, le tue
 						prenotazioni non saranno più le stesse.</p>
 				</c:if>
