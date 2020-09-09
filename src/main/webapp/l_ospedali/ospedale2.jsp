@@ -97,7 +97,7 @@ body {
 <body
 	class="page-template-default page page-id-148 page-child parent-pageid-106">
 
-	<%@include file="../nav.html"%>
+	<%@include file="nav2.html"%>
 	<div id="wrap" class="container">
 		<div class="row">
 			<div id="page"

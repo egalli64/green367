@@ -96,7 +96,7 @@ body {
 
 <body
 	class="page-template-default page page-id-148 page-child parent-pageid-106">
-	<%@include file="../nav.html"%>
+	<%@include file="nav2.html"%>
 	<div id="wrap" class="container">
 		<div class="row">
 			<div id="page"
@@ -235,7 +235,7 @@ body {
 						<li class="page_item page-item-5127  list-group-item"><a
 							href="../index.jsp">Home</a></li>
 						<li class="page_item page-item-106  list-group-item"><a
-							href="../ospedali.html">Strutture Ospedaliere</a></li>
+							href="../ospedali.jsp">Strutture Ospedaliere</a></li>
 						<li class="page_item page-item-65  list-group-item"><a
 							href="../service.jsp"> Servizi</a></li>
 						<li class="page_item page-item-108  list-group-item"><a

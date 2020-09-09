@@ -113,32 +113,27 @@ body {
 				<hr class="sr-only">
 				<a name="contenuto"></a>
 				<hr>
-				<h1 class="page-title">Ospedale Serbelloni - Gorgonzola</h1>
+				<h1 class="page-title">
+                    Ospedale Uboldo di Cernusco sul Naviglio</h1>
 
-				<div class="page-content">
-					<div id="sfondoh">
-						<div class="table-responsive">
-							<table width="100%">
-								<tbody>
-									<tr>
-										<td></td>
-									</tr>
-									<tr>
-										<td>
-											<p style="text-align: center;">
-												<strong>Ospedale Serbelloni - Gorgonzola </strong>
-											</p>
-											<p style="text-align: center;">
-												<strong>Via Bellini&nbsp;5, 20064&nbsp;Gorgonzola</strong>
-											</p>
-											<p style="text-align: center;">
-												<strong>Telefono (centralino) +39 0 35 3063111</strong>
-											</p>
-											<p>
-												<strong>REPARTI:</strong>
-											</p>
-											<p>&nbsp;</p>
-											<ul>
+                <div class="page-content">
+                    <div id="sfondoh">
+                        <div class="table-responsive">
+                            <table width="100%">
+                                <tbody>
+                                    <tr>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p style="text-align: center;"><strong>Ospedale "Uboldo"</strong></p>
+                                            <p style="text-align: center;"><strong>Via Uboldo &nbsp;21,
+                                                    20063&nbsp;Cernusco sul Naviglio (MI)</strong></p>
+                                            <p style="text-align: center;"><strong>Telefono (centralino)
+                                                    +39 0 35 3063111</strong></p>
+                                            <p><strong>REPARTI:</strong></p>
+                                            <p>&nbsp;</p>
+                                            <ul>
 												<li>Anatomia Patologica</li>
 												<li>Anestesia Rianimazione &ndash; Terapia Intensiva</li>
 												<li>Attività  Cure Subacuti</li>
@@ -252,11 +247,10 @@ body {
 				<div class="row">
 					<div class="col-1"></div>
 					<div class="col34">
-						<iframe
-							src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2794.7747850380333!2d9.410266215559835!3d45.534737479101835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4786b5ea79c40075%3A0x36174f1c42439d99!2sPresidio%20Socio%20Sanitario%20Territoriale%20di%20Gorgonzola!5e0!3m2!1sit!2sit!4v1599403543502!5m2!1sit!2sit"
-							width="250" height="200" frameborder="0"
-							style="margin-left: 20px;" allowfullscreen="" aria-hidden="false"
-							tabindex="0"></iframe>
+						  <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5580.350973800922!2d9.03346867736511!3d45.62721086641271!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4786914518d66c85%3A0x4c991400183c090!2sOspedale%20di%20Saronno!5e0!3m2!1sit!2sit!4v1599404522072!5m2!1sit!2sit"
+                            width="250" height="200" frameborder="0" style="margin-left: 20px;" allowfullscreen=""
+                            aria-hidden="false" tabindex="0"></iframe>
 					</div>
 
 				</div>
@@ -266,12 +260,11 @@ body {
 
 		<hr>
 
-		<div id="copyrightArea" class="text-center">
-			<p>Via Pandina 1, 20070 Vizzolo Predabissi (MI) - Telefono: 02
-				98051 - Fax: 02 98058254 - C.F. e P.I. 09320650964</p>
-			<hr>
-			<p>© 2020 Green Team</p>
-		</div>
+		  <div id="copyrightArea" class="text-center">
+            <p>Via Pandina 1, 20070 Vizzolo Predabissi (MI) - Telefono: 02 98051 - Fax: 02 98058254 - C.F. e P.I. 09320650964</p>
+            <hr>
+            <p>© 2020 Green Team</p>
+        </div>
 		<hr>
 
 		<div id="footer" class="clearfix">
