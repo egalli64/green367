@@ -113,7 +113,7 @@ body {
 				<hr class="sr-only">
 				<a name="contenuto"></a>
 				<hr>
-				<h1 class="page-title">Ospedale di Vizzolo Predabissi</h1>
+				<h1 class="page-title">Ospedale Serbelloni - Gorgonzola</h1>
 
 				<div class="page-content">
 					<div id="sfondoh">
@@ -126,14 +126,13 @@ body {
 									<tr>
 										<td>
 											<p style="text-align: center;">
-												<strong>Ospedale di Vizzolo Predabissi</strong>
+												<strong>Ospedale Serbelloni - Gorgonzola </strong>
 											</p>
 											<p style="text-align: center;">
-												<strong>Via Pandina&nbsp;1, 20070&nbsp;Vizzolo
-													Predabissi</strong>
+												<strong>Via Bellini&nbsp;5, 20064&nbsp;Gorgonzola</strong>
 											</p>
 											<p style="text-align: center;">
-												<strong>Telefono (centralino) 02.98051</strong>
+												<strong>Telefono (centralino) +39 0 35 3063111</strong>
 											</p>
 											<p>
 												<strong>REPARTI:</strong>
@@ -254,7 +253,7 @@ body {
 					<div class="col-1"></div>
 					<div class="col34">
 						<iframe
-							src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2803.4982091704856!2d9.338435015553943!3d45.358940679099874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4786d21c970fffbb%3A0x454a5857f77f4d6f!2sOspedale%20di%20Vizzolo%20Predabissi!5e0!3m2!1sit!2sit!4v1599402147634!5m2!1sit!2sit"
+							src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2794.7747850380333!2d9.410266215559835!3d45.534737479101835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4786b5ea79c40075%3A0x36174f1c42439d99!2sPresidio%20Socio%20Sanitario%20Territoriale%20di%20Gorgonzola!5e0!3m2!1sit!2sit!4v1599403543502!5m2!1sit!2sit"
 							width="250" height="200" frameborder="0"
 							style="margin-left: 20px;" allowfullscreen="" aria-hidden="false"
 							tabindex="0"></iframe>
@@ -270,6 +269,7 @@ body {
 		<div id="copyrightArea" class="text-center">
 			<p>Via Pandina 1, 20070 Vizzolo Predabissi (MI) - Telefono: 02
 				98051 - Fax: 02 98058254 - C.F. e P.I. 09320650964</p>
+			<hr>
 			<p>© 2020 Green Team</p>
 		</div>
 		<hr>
