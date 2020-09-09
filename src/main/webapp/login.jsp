@@ -22,13 +22,13 @@
 	<div class="row">
 		<div class="col-3"></div>
 		<div class="col-7" id="form-col">
-			<form id="form" class="form-group">
+			<form id="form" class="form-group" action="login">
 				<div class="was-validated">
 					<fieldset>
 						<legend id="titolo">Login Area</legend>
-						<label>User Name: <input type="text" name="azname"
+						<label>User Name: <input type="text" name="loginUsername"
 							id="azname" required></label> <label for="occ">Password:
-						</label> <input type="password" id="occ" name="carica" id="carica"
+						</label> <input type="password" id="occ" name="loginPassword" id="carica"
 							pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required>
 					</fieldset>
 					<div class="row">
