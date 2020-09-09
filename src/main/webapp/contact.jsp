@@ -50,7 +50,7 @@
 	</form>
 	</div>
 	<hr>
-
+<%@include file="footer.html"%>
 </body>
 
 </html>
