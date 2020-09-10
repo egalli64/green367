@@ -19,29 +19,29 @@
 		<div class="row">
 			<div class="col-3"></div>
 			<div class="col-6 central styleBody-1">
-				<form method="GET">
+				<form method="GET" action="registrationForm">
 					<h3 id="legend-register">Registration form</h3>
 					<div class="form-row">
 						<div class="form-group col-md-6">
 							<label for="name-register">Name*</label> <input type="text"
-								id="name-register" class="form-control" required>
+								id="name-register" name="firstName" class="form-control" required>
 						</div>
 						<div class="form-group col-md-6">
 							<label for="surname-register">Surname*</label> <input type="text"
-								id="surname-register" class="form-control" required>
+								id="surname-register" name="surname" class="form-control" required>
 						</div>
 					</div>
 					<div class="form-group">
 						<label for="email-register">Email*</label> <input type="email"
-							id="email-register" class="form-control" required>
+							id="email-register" name="email" class="form-control" required>
 					</div>
 					<div class="form-group">
 						<label for="username-register">Username*</label> <input type="username"
-							id="username-register" class="form-control" required>
+							id="username-register" name="username" class="form-control" required>
 					</div>
 					<div class="form-group">
 						<label for="code-register">Codice Fiscale*</label> <input
-							type="text" id="code-register" class="form-control" required>
+							type="text" id="code-register" name="fiscalCode" class="form-control" required>
 					</div>
 					<div class="form-row">
 						<div class="form-group col-md-6">
@@ -77,13 +77,13 @@
 						</div>
 						<div class="form-group col-md-2">
 							<label for="inputZip">CAP*</label> <input type="number"
-								id="cap-register" class="form-control" required>
+								id="cap-register" name="cap" class="form-control" required>
 						</div>
 					</div>
 					<div class="form-row">
 						<div class="form-group col-md-6">
 							<label for="password1-register">Password*</label> <input
-								type="password" id="password1-register" class="form-control"
+								type="password" id="password1-register" name="password" class="form-control"
 								required>
 						</div>
 						<div class="form-group col-md-6">

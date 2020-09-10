@@ -19,8 +19,7 @@ public class User {
       this.user_password = user_password;
   }
   
-  public User(int user_id, String user_name, String user_password, String first_name, String last_name, int cap, String user_email, String user_cf) {
-	  this.user_id = user_id;
+  public User( String user_name, String user_password, String first_name, String last_name, int cap, String user_email, String user_cf) {
       this.user_name = user_name;
       this.user_password = user_password;
       this.first_name=first_name;
