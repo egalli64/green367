@@ -2,15 +2,15 @@
 public class User {
 	 private int user_id;
 	 private String user_name;
-	 private String user_pw;
+	 private String user_password;
 
 
   public User() {
   }
-  public User(int user_id, String user_name,String user_pw) {
+  public User(int user_id, String user_name,String user_password) {
       this.user_id = user_id;
       this.user_name = user_name;
-      this.user_pw = user_pw;
+      this.user_password = user_password;
   }
 
   public long getUser_id() {
@@ -30,16 +30,16 @@ public class User {
   }
   
   public String getUser_pw() {
-      return user_pw;
+      return user_password;
   }
 
-  public void setUser_pw(String user_pw) {
-      this.user_pw = user_pw;
+  public void setUser_pw(String user_password) {
+      this.user_password = user_password;
   }
 
   @Override
   public String toString() {
-      return "Service [user_id=" + user_id + ", user_name=" + user_name + ", user_pw=" + user_pw +"]";
+      return "User [user_id=" + user_id + ", user_name=" + user_name + ", user_password=" + user_password +"]";
   }
 
 }
