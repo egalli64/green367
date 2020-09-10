@@ -25,6 +25,7 @@ public class Registration extends HttpServlet {
 	private static Logger logger = LoggerFactory.getLogger(Registration.class);
 	private static final long serialVersionUID = 1L;
 	private static final String INSERT = "insert into users (user_name, user_password, user_cf, first_name, last_name, cap, user_email) values (?,?,?,?,?,?,?)";
+	private Connection conn;
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
@@ -37,10 +38,10 @@ public class Registration extends HttpServlet {
 		String email = request.getParameter("email");
 
 		try {
-			Connection conn;
+
 			DataSource ds;
 			logger.trace("called");
-			conn = ds.getConnection();
+			this.conn = ds.getConnection();
 		} catch (SQLException se) {
 			throw new IllegalStateException("Database issue " + se.getMessage());
 		}
