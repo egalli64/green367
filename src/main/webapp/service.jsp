@@ -29,24 +29,27 @@
 			<div class="col" class="card" style="width: 18rem;">
 				<div class="card-body">
 					<h4 class="card-title">Cardiolocia</h4>
-					<a type="button" href="#" class="btn btn-success">Prenota</a> <a
-						type="button" href="#" class="btn btn-light">Ospedali Eroganti</a>
+					<a type="button" href="booking.jsp" class="btn btn-success">Prenota</a>
+					<a type="button" href="#" class="btn btn-light">Ospedali
+						Eroganti</a>
 
 				</div>
 			</div>
 			<div class="col" class="card" style="width: 18rem;">
 				<div class="card-body">
 					<h4 class="card-title">Oculistica</h4>
-					<a type="button" href="#" class="btn btn-success">Prenota</a> <a
-						type="button" href="#" class="btn btn-light">Ospedali Eroganti</a>
+					<a type="button" href="booking.jsp" class="btn btn-success">Prenota</a>
+					<a type="button" href="#" class="btn btn-light">Ospedali
+						Eroganti</a>
 
 				</div>
 			</div>
 			<div class="col" class="card" style="width: 18rem;">
 				<div class="card-body">
 					<h4 class="card-title">Dietologia</h4>
-					<a type="button" href="#" class="btn btn-success">Prenota</a> <a
-						type="button" href="#" class="btn btn-light">Ospedali Eroganti</a>
+					<a type="button" href="booking.jsp" class="btn btn-success">Prenota</a>
+					<a type="button" href="#" class="btn btn-light">Ospedali
+						Eroganti</a>
 
 				</div>
 			</div>
@@ -56,24 +59,27 @@
 			<div class="col" class="card" style="width: 18rem;">
 				<div class="card-body">
 					<h4 class="card-title">Urologia</h4>
-					<a type="button" href="#" class="btn btn-success">Prenota</a> <a
-						type="button" href="#" class="btn btn-light">Ospedali Eroganti</a>
+					<a type="button" href="booking.jsp" class="btn btn-success">Prenota</a>
+					<a type="button" href="#" class="btn btn-light">Ospedali
+						Eroganti</a>
 
 				</div>
 			</div>
 			<div class="col" class="card" style="width: 18rem;">
 				<div class="card-body">
 					<h4 class="card-title">Radiologia</h4>
-					<a type="button" href="#" class="btn btn-success">Prenota</a> <a
-						type="button" href="#" class="btn btn-light">Ospedali Eroganti</a>
+					<a type="button" href="booking.jsp" class="btn btn-success">Prenota</a>
+					<a type="button" href="#" class="btn btn-light">Ospedali
+						Eroganti</a>
 
 				</div>
 			</div>
 			<div class="col" class="card" style="width: 18rem;">
 				<div class="card-body">
 					<h4 class="card-title">Allergologia</h4>
-					<a type="button" href="#" class="btn btn-success">Prenota</a> <a
-						type="button" href="#" class="btn btn-light">Ospedali Eroganti</a>
+					<a type="button" href="booking.jsp" class="btn btn-success">Prenota</a>
+					<a type="button" href="#" class="btn btn-light">Ospedali
+						Eroganti</a>
 
 				</div>
 			</div>
@@ -83,24 +89,27 @@
 			<div class="col" class="card" style="width: 18rem;">
 				<div class="card-body">
 					<h4 class="card-title">Endocrinologia</h4>
-					<a type="button" href="#" class="btn btn-success">Prenota</a> <a
-						type="button" href="#" class="btn btn-light">Ospedali Eroganti</a>
+					<a type="button" href="booking.jsp" class="btn btn-success">Prenota</a>
+					<a type="button" href="#" class="btn btn-light">Ospedali
+						Eroganti</a>
 
 				</div>
 			</div>
 			<div class="col" class="card" style="width: 18rem;">
 				<div class="card-body">
 					<h4 class="card-title">Nefrologia</h4>
-					<a type="button" href="#" class="btn btn-success">Prenota</a> <a
-						type="button" href="#" class="btn btn-light">Ospedali Eroganti</a>
+					<a type="button" href="booking.jsp" class="btn btn-success">Prenota</a>
+					<a type="button" href="#" class="btn btn-light">Ospedali
+						Eroganti</a>
 
 				</div>
 			</div>
 			<div class="col" class="card" style="width: 18rem;">
 				<div class="card-body">
 					<h4 class="card-title">Neurologia</h4>
-					<a type="button" href="#" class="btn btn-success">Prenota</a> <a
-						type="button" href="#" class="btn btn-light">Ospedali Eroganti</a>
+					<a type="button" href="booking.jsp" class="btn btn-success">Prenota</a>
+					<a type="button" href="#" class="btn btn-light">Ospedali
+						Eroganti</a>
 
 				</div>
 			</div>
@@ -110,24 +119,27 @@
 			<div class="col" class="card" style="width: 18rem;">
 				<div class="card-body">
 					<h4 class="card-title">Ortopedia</h4>
-					<a type="button" href="#" class="btn btn-success">Prenota</a> <a
-						type="button" href="#" class="btn btn-light">Ospedali Eroganti</a>
+					<a type="button" href="booking.jsp" class="btn btn-success">Prenota</a>
+					<a type="button" href="#" class="btn btn-light">Ospedali
+						Eroganti</a>
 
 				</div>
 			</div>
 			<div class="col" class="card" style="width: 18rem;">
 				<div class="card-body">
 					<h4 class="card-title">Otorinolaringoiatria</h4>
-					<a type="button" href="#" class="btn btn-success">Prenota</a> <a
-						type="button" href="#" class="btn btn-light">Ospedali Eroganti</a>
+					<a type="button" href="booking.jsp" class="btn btn-success">Prenota</a>
+					<a type="button" href="#" class="btn btn-light">Ospedali
+						Eroganti</a>
 
 				</div>
 			</div>
 			<div class="col" class="card" style="width: 18rem;">
 				<div class="card-body">
 					<h4 class="card-title">Ginecologia</h4>
-					<a type="button" href="#" class="btn btn-success">Prenota</a> <a
-						type="button" href="#" class="btn btn-light">Ospedali Eroganti</a>
+					<a type="button" href="booking.jsp" class="btn btn-success">Prenota</a>
+					<a type="button" href="#" class="btn btn-light">Ospedali
+						Eroganti</a>
 
 				</div>
 			</div>
@@ -137,24 +149,27 @@
 			<div class="col" class="card" style="width: 18rem;">
 				<div class="card-body">
 					<h4 class="card-title">Diabetologia</h4>
-					<a type="button" href="#" class="btn btn-success">Prenota</a> <a
-						type="button" href="#" class="btn btn-light">Ospedali Eroganti</a>
+					<a type="button" href="booking.jsp" class="btn btn-success">Prenota</a>
+					<a type="button" href="#" class="btn btn-light">Ospedali
+						Eroganti</a>
 
 				</div>
 			</div>
 			<div class="col" class="card" style="width: 18rem;">
 				<div class="card-body">
 					<h4 class="card-title">Oftalmologia</h4>
-					<a type="button" href="#" class="btn btn-success">Prenota</a> <a
-						type="button" href="#" class="btn btn-light">Ospedali Eroganti</a>
+					<a type="button" href="booking.jsp" class="btn btn-success">Prenota</a>
+					<a type="button" href="#" class="btn btn-light">Ospedali
+						Eroganti</a>
 
 				</div>
 			</div>
 			<div class="col" class="card" style="width: 18rem;">
 				<div class="card-body">
 					<h4 class="card-title">Pneumologia</h4>
-					<a type="button" href="#" class="btn btn-success">Prenota</a> <a
-						type="button" href="#" class="btn btn-light">Ospedali Eroganti</a>
+					<a type="button" href="booking.jsp" class="btn btn-success">Prenota</a>
+					<a type="button" href="#" class="btn btn-light">Ospedali
+						Eroganti</a>
 
 				</div>
 			</div>
