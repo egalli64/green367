@@ -10,7 +10,9 @@
 <meta name="viewport"
 	content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap" rel="stylesheet">
+<link
+	href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap"
+	rel="stylesheet">
 <link rel="stylesheet"
 	href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 
@@ -35,7 +37,8 @@
 			</div>
 			<div class="col">
 				<form action="logout">
-					<input type="submit" class="btn btn-primary" name="buttonLogout" data-toggle="button" aria-pressed="false" value="Logout">
+					<input type="submit" class="btn btn-primary" name="buttonLogout"
+						data-toggle="button" aria-pressed="false" value="Logout">
 				</form>
 			</div>
 		</div>
@@ -55,9 +58,11 @@
 				</c:if>
 				<c:if test="${correctLog}">
 					<h2>Grazie per il tuo supporto</h2>
-					<p>Ciao <i class="formLog">${username}</i>, grazie per il tuo supporto! Esplora il
-						nostro sito per scoprirne tutte le potenzialità, le tue
-						prenotazioni non saranno più le stesse.</p>
+					<p>
+						Ciao <i class="formLog">${username}</i>, grazie per il tuo
+						supporto! Esplora il nostro sito per scoprirne tutte le
+						potenzialità, le tue prenotazioni non saranno più le stesse.
+					</p>
 				</c:if>
 			</div>
 		</div>

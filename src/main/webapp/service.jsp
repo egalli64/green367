@@ -11,175 +11,154 @@
 	href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
 	integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
 	crossorigin="anonymous">
+<link
+	href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap"
+	rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="css/service.css">
+
 
 
 </script>
 </head>
 <body>
 	<%@include file="nav.html"%>
-	<div class="container -fluid set-green">
+
+	<div class="container -fluid set-grey">
 		<div class="row">
-			<div class="col-xl-5"></div>
-			<h1>Servizi</h1>
+
+			<div class="col" class="card" style="width: 18rem;">
+				<div class="card-body">
+					<h4 class="card-title">Cardiolocia</h4>
+					<a type="button" href="#" class="btn btn-success">Prenota</a> <a
+						type="button" href="#" class="btn btn-light">Ospedali Eroganti</a>
+
+				</div>
+			</div>
+			<div class="col" class="card" style="width: 18rem;">
+				<div class="card-body">
+					<h4 class="card-title">Oculistica</h4>
+					<a type="button" href="#" class="btn btn-success">Prenota</a> <a
+						type="button" href="#" class="btn btn-light">Ospedali Eroganti</a>
+
+				</div>
+			</div>
+			<div class="col" class="card" style="width: 18rem;">
+				<div class="card-body">
+					<h4 class="card-title">Dietologia</h4>
+					<a type="button" href="#" class="btn btn-success">Prenota</a> <a
+						type="button" href="#" class="btn btn-light">Ospedali Eroganti</a>
+
+				</div>
+			</div>
 		</div>
+		<div class="row">
 
-
-		<div id="liste">
-
-			<div class="row">
-
-
-				<div class="col" id="l1">
-					<legend id="legend-register">OSPEDALE BOLOGNINI - SERIATE</legend>
-					<ul class="list-group">
-
-						<li class="list-group-item list-group-item-success">Ginecologia</li>
-						<li class="list-group-item list-group-item-success">Urologia</li>
-						<li class="list-group-item list-group-item-success">Ortopedia</li>
-						<li class="list-group-item list-group-item-success">Neurologia</li>
-						<li class="list-group-item list-group-item-success">Nefrologia</li>
-					</ul>
-
-				</div>
-				<div class="col" id="l1">
-					<legend id="legend-register">OSPEDALE SERBELLONI -
-						GORGONZOLA</legend>
-					<ul class="list-group">
-
-						<li class="list-group-item list-group-item-success">Ginecologia</li>
-						<li class="list-group-item list-group-item-success">Nefrologia</li>
-						<li class="list-group-item list-group-item-success">Cardiologia</li>
-
-					</ul>
-
-				</div>
-				<div class="col" id="l1">
-					<legend id="legend-register">OSPEDALE DI VIZZOLO
-						PREDABISSI</legend>
-					<ul class="list-group">
-
-						<li class="list-group-item list-group-item-success">Ginecologia</li>
-						<li class="list-group-item list-group-item-success">Urologia</li>
-						<li class="list-group-item list-group-item-success">Cardiologia</li>
-						<li class="list-group-item list-group-item-success">Neurologia</li>
-					</ul>
+			<div class="col" class="card" style="width: 18rem;">
+				<div class="card-body">
+					<h4 class="card-title">Urologia</h4>
+					<a type="button" href="#" class="btn btn-success">Prenota</a> <a
+						type="button" href="#" class="btn btn-light">Ospedali Eroganti</a>
 
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-xl-4" id="l1">
-					<legend id="legend-register">OSP. CROTTA OLTROCCHI-VAPRIO
-						D'ADDA</legend>
-					<ul class="list-group">
-
-						<li class="list-group-item list-group-item-success">Ginecologia</li>
-						<li class="list-group-item list-group-item-success">Neurologia</li>
-						<li class="list-group-item list-group-item-success">Radiologia</li>
-
-					</ul>
+			<div class="col" class="card" style="width: 18rem;">
+				<div class="card-body">
+					<h4 class="card-title">Radiologia</h4>
+					<a type="button" href="#" class="btn btn-success">Prenota</a> <a
+						type="button" href="#" class="btn btn-light">Ospedali Eroganti</a>
 
 				</div>
-				<div class="col-xl-4" id="l1">
-					<legend id="legend-register">OSP. GENERALE PROVINCIALE -
-						SARONNO</legend>
-					<ul class="list-group">
-
-						<li class="list-group-item list-group-item-success">Ginecologia</li>
-						<li class="list-group-item list-group-item-success">Neurologia</li>
-						<li class="list-group-item list-group-item-success">Radiologia</li>
-
-					</ul>
-
-				</div>
-				<div class="col-xl-4" id="l1">
-					<legend id="legend-register">PRESIDIO OSPED. V. BUZZI -
-						MILANO</legend>
-					<ul class="list-group">
-
-						<li class="list-group-item list-group-item-success">Ginecologia</li>
-						<li class="list-group-item list-group-item-success">Neurologia</li>
-						<li class="list-group-item list-group-item-success">Radiologia</li>
-
-					</ul>
-
-				</div>
-
 			</div>
-			<div class="row">
-				<div class="col-xl-4" id="l1">
-					<legend id="legend-register">OSPEDALE PESENTI FENAROLI -
-						ALZANO L.</legend>
-					<ul class="list-group">
-
-						<li class="list-group-item list-group-item-success">Ginecologia</li>
-						<li class="list-group-item list-group-item-success">Neurologia</li>
-						<li class="list-group-item list-group-item-success">Radiologia</li>
-
-					</ul>
+			<div class="col" class="card" style="width: 18rem;">
+				<div class="card-body">
+					<h4 class="card-title">Allergologia</h4>
+					<a type="button" href="#" class="btn btn-success">Prenota</a> <a
+						type="button" href="#" class="btn btn-light">Ospedali Eroganti</a>
 
 				</div>
-				<div class="col-xl-4" id="l1">
-					<legend id="legend-register">PRESIDIO OSPEDALIERO DI
-						ROVATO</legend>
-					<ul class="list-group">
-
-						<li class="list-group-item list-group-item-success">Ginecologia</li>
-						<li class="list-group-item list-group-item-success">Neurologia</li>
-						<li class="list-group-item list-group-item-success">Radiologia</li>
-
-					</ul>
-
-				</div>
-				<div class="col-xl-4" id="l1">
-					<legend id="legend-register">OSPEDALE S. MARIA DELLE
-						STELLE MELZO</legend>
-					<ul class="list-group">
-
-						<li class="list-group-item list-group-item-success">Ginecologia</li>
-						<li class="list-group-item list-group-item-success">Neurologia</li>
-						<li class="list-group-item list-group-item-success">Radiologia</li>
-
-					</ul>
-
-				</div>
-				<div class="col-xl-4" id="l1">
-					<legend id="legend-register">OSPEDALE UBOLDO - CERNUSCO
-						S/NAVIGLIO</legend>
-					<ul class="list-group">
-
-						<li class="list-group-item list-group-item-success">Ginecologia</li>
-						<li class="list-group-item list-group-item-success">Neurologia</li>
-						<li class="list-group-item list-group-item-success">Radiologia</li>
-
-					</ul>
-
-				</div>
-				<div class="col-xl-4" id="l1">
-					<legend id="legend-register">OSPEDALE S. PAOLO - MILANO</legend>
-					<ul class="list-group">
-
-						<li class="list-group-item list-group-item-success">Ginecologia</li>
-						<li class="list-group-item list-group-item-success">Neurologia</li>
-						<li class="list-group-item list-group-item-success">Radiologia</li>
-
-					</ul>
-
-				</div>
-				<div class="col-xl-4" id="l1">
-					<legend id="legend-register">OSPEDALE FATEBENEFRATELLI E
-						OFTALMICO - MILANO</legend>
-					<ul class="list-group">
-
-						<li class="list-group-item list-group-item-success">Ginecologia</li>
-						<li class="list-group-item list-group-item-success">Neurologia</li>
-						<li class="list-group-item list-group-item-success">Radiologia</li>
-
-					</ul>
-
-				</div>
-
 			</div>
-
 		</div>
+		<div class="row">
+
+			<div class="col" class="card" style="width: 18rem;">
+				<div class="card-body">
+					<h4 class="card-title">Endocrinologia</h4>
+					<a type="button" href="#" class="btn btn-success">Prenota</a> <a
+						type="button" href="#" class="btn btn-light">Ospedali Eroganti</a>
+
+				</div>
+			</div>
+			<div class="col" class="card" style="width: 18rem;">
+				<div class="card-body">
+					<h4 class="card-title">Nefrologia</h4>
+					<a type="button" href="#" class="btn btn-success">Prenota</a> <a
+						type="button" href="#" class="btn btn-light">Ospedali Eroganti</a>
+
+				</div>
+			</div>
+			<div class="col" class="card" style="width: 18rem;">
+				<div class="card-body">
+					<h4 class="card-title">Neurologia</h4>
+					<a type="button" href="#" class="btn btn-success">Prenota</a> <a
+						type="button" href="#" class="btn btn-light">Ospedali Eroganti</a>
+
+				</div>
+			</div>
+		</div>
+		<div class="row">
+
+			<div class="col" class="card" style="width: 18rem;">
+				<div class="card-body">
+					<h4 class="card-title">Ortopedia</h4>
+					<a type="button" href="#" class="btn btn-success">Prenota</a> <a
+						type="button" href="#" class="btn btn-light">Ospedali Eroganti</a>
+
+				</div>
+			</div>
+			<div class="col" class="card" style="width: 18rem;">
+				<div class="card-body">
+					<h4 class="card-title">Otorinolaringoiatria</h4>
+					<a type="button" href="#" class="btn btn-success">Prenota</a> <a
+						type="button" href="#" class="btn btn-light">Ospedali Eroganti</a>
+
+				</div>
+			</div>
+			<div class="col" class="card" style="width: 18rem;">
+				<div class="card-body">
+					<h4 class="card-title">Ginecologia</h4>
+					<a type="button" href="#" class="btn btn-success">Prenota</a> <a
+						type="button" href="#" class="btn btn-light">Ospedali Eroganti</a>
+
+				</div>
+			</div>
+		</div>
+		<div class="row">
+
+			<div class="col" class="card" style="width: 18rem;">
+				<div class="card-body">
+					<h4 class="card-title">Diabetologia</h4>
+					<a type="button" href="#" class="btn btn-success">Prenota</a> <a
+						type="button" href="#" class="btn btn-light">Ospedali Eroganti</a>
+
+				</div>
+			</div>
+			<div class="col" class="card" style="width: 18rem;">
+				<div class="card-body">
+					<h4 class="card-title">Oftalmologia</h4>
+					<a type="button" href="#" class="btn btn-success">Prenota</a> <a
+						type="button" href="#" class="btn btn-light">Ospedali Eroganti</a>
+
+				</div>
+			</div>
+			<div class="col" class="card" style="width: 18rem;">
+				<div class="card-body">
+					<h4 class="card-title">Pneumologia</h4>
+					<a type="button" href="#" class="btn btn-success">Prenota</a> <a
+						type="button" href="#" class="btn btn-light">Ospedali Eroganti</a>
+
+				</div>
+			</div>
+		</div>
+	</div>
+	<%@include file="footer.html"%>
 </html>

@@ -45,12 +45,12 @@
 			<input type="submit" value="Invia richiesta"
 				onClick="validationMail()">
 		</div>
+		
 
-		</div>
 	</form>
-	</div>
+
 	<hr>
-<%@include file="footer.html"%>
+	<%@include file="footer.html"%>
 </body>
 
 </html>

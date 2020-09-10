@@ -17,21 +17,21 @@
 					class="nav-link active" id="pills-home-tab" data-toggle="pill"
 					href="index.jsp" role="tab" aria-controls="pills-home"
 					aria-selected="true">Home</a></li>
-					<c:if test="${correctLog}">
-				<li class="nav-item" role="presentation"><a class="nav-link"
-					id="pills-chiSiamo-tab" data-toggle="pill" href="ospedali.jsp"
-					role="tab" aria-controls="pills-chiSiamo" aria-selected="false">Ospedali</a>
-				</li>
+				<c:if test="${correctLog}">
+					<li class="nav-item" role="presentation"><a class="nav-link"
+						id="pills-chiSiamo-tab" data-toggle="pill" href="ospedali.jsp"
+						role="tab" aria-controls="pills-chiSiamo" aria-selected="false">Ospedali</a>
+					</li>
 				</c:if>
 				<li class="nav-item" role="presentation"><a class="nav-link"
 					id="pills-contattacit-tab" data-toggle="pill" href="contact.jsp"
 					role="tab" aria-controls="pills-contattaci" aria-selected="false">Contattaci</a>
 				</li>
 				<c:if test="${correctLog}">
-				<li class="nav-item" role="presentation"><a class="nav-link"
-					id="pills-servizi-tab" data-toggle="pill" href="service.jsp"
-					role="tab" aria-controls="pills-servizi" aria-selected="false">Servizi</a>
-				</li>
+					<li class="nav-item" role="presentation"><a class="nav-link"
+						id="pills-servizi-tab" data-toggle="pill" href="service.jsp"
+						role="tab" aria-controls="pills-servizi" aria-selected="false">Servizi</a>
+					</li>
 				</c:if>
 				<li class="nav-item" role="presentation"><a class="nav-link"
 					id="pills-servizi-tab" data-toggle="pill" href="chisiamo.jsp"
