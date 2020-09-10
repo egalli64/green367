@@ -12,7 +12,7 @@
 
 </head>
 <body>
-	<%@include file="nav.jsp"%>
+	<%@include file="nav.html"%>
 	<div class="central">
 		<div class="row">
 			<div class="col-3"></div>

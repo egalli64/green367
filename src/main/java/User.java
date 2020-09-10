@@ -95,8 +95,10 @@ public class User {
 	 this.user_email=user_email;
  }
   @Override
-  public String toString() {
-      return "User [user_id=" + user_id + ", user_name=" + user_name + ", user_password=" + user_password +" ]";
-  }
+public String toString() {
+	return "User [user_id=" + user_id + ", user_name=" + user_name + ", user_password=" + user_password + ", user_cf="
+			+ user_cf + ", first_name=" + first_name + ", last_name=" + last_name + ", cap=" + cap + ", user_email="
+			+ user_email + "]";
+}
 
 }

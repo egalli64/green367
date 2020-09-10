@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 </head>
 <body>
-	<%@include file="nav.jsp"%>
+	<%@include file="nav.html"%>
 	<div class="col-4"></div>
 	<div class="col-4">
 		<legend id="legend-register">Lista Ospedali</legend>
