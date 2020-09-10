@@ -36,6 +36,10 @@
 							id="email-register" class="form-control" required>
 					</div>
 					<div class="form-group">
+						<label for="username-register">Username*</label> <input type="username"
+							id="username-register" class="form-control" required>
+					</div>
+					<div class="form-group">
 						<label for="code-register">Codice Fiscale*</label> <input
 							type="text" id="code-register" class="form-control" required>
 					</div>
