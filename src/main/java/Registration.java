@@ -40,7 +40,7 @@ public class Registration extends HttpServlet {
 		String username = request.getParameter("username");
 		String fiscalCode = request.getParameter("fiscalCode");
 		int cap = Integer.parseInt(request.getParameter("cap"));
-		String password = request.getParameter("surname");
+		String password = request.getParameter("password");
 		try {
 			this.conn = ds.getConnection();
 		} catch (SQLException se) {
