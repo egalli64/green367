@@ -21,13 +21,18 @@
 			<div class="col-6 central styleBody-1">
 				<form method="GET">
 					<h3 id="legend-register">Modulo di prenotazione</h3>
-						<p>Nome:</p>
-						<p>Cognome:</p>
-						<p>Indirizzo:</p>
-						<p>Codice Fiscale:</p>
-						<p>
-						Ospedale
-						</p>
+						<Label for="first_name">Nome:</Label>
+						<input type="text" id="first name" name="first_name">
+						<Label for="last_name">Cognome:</Label>
+						<input type="text" id="last name" name="last_name">
+						<Label for="address">Indirizzo:</Label>
+						<input type="text" id="address" name="address">
+						<Label for="cf">Codice fiscale:</Label>
+						<input type="text" id="cf" name="cf">
+						<Label for="hospital">Ospedale:</Label>
+						<input type="text" id="hospital" name="hospital">
+						<Label for="date"> Data della visita:</Label>
+						<input type="date" id="date" name="date">
 					<button type="submit" class="btn btn-primary">Prenota</button>
 				</form>
 			</div>
