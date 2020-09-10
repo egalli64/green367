@@ -26,7 +26,7 @@
 </head>
 
 <body>
-	<%@include file="nav.html"%>
+	<%@include file="nav.jsp"%>
 	<c:if test="${correctLog}">
 		<div class="row" style="background-color: white;">
 			<div class="col-9"></div>

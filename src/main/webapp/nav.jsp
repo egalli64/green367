@@ -1,0 +1,67 @@
+<%@ page language="java" contentType="text/html; charset=utf-8"
+	pageEncoding="utf-8"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<nav>
+
+	<div class="row set-green">
+		<div class="col-1"></div>
+		<div class="col">
+			<h1>Green Hospital</h1>
+		</div>
+	</div>
+	<div class="row set-green">
+		<div class="col-1"></div>
+		<div class="col-10">
+			<ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+				<li class="nav-item" role="presentation"><a
+					class="nav-link active" id="pills-home-tab" data-toggle="pill"
+					href="index.jsp" role="tab" aria-controls="pills-home"
+					aria-selected="true">Home</a></li>
+					<c:if test="${correctLog}">
+				<li class="nav-item" role="presentation"><a class="nav-link"
+					id="pills-chiSiamo-tab" data-toggle="pill" href="ospedali.jsp"
+					role="tab" aria-controls="pills-chiSiamo" aria-selected="false">Ospedali</a>
+				</li>
+				</c:if>
+				<li class="nav-item" role="presentation"><a class="nav-link"
+					id="pills-contattacit-tab" data-toggle="pill" href="contact.jsp"
+					role="tab" aria-controls="pills-contattaci" aria-selected="false">Contattaci</a>
+				</li>
+				<c:if test="${correctLog}">
+				<li class="nav-item" role="presentation"><a class="nav-link"
+					id="pills-servizi-tab" data-toggle="pill" href="service.jsp"
+					role="tab" aria-controls="pills-servizi" aria-selected="false">Servizi</a>
+				</li>
+				</c:if>
+				<li class="nav-item" role="presentation"><a class="nav-link"
+					id="pills-servizi-tab" data-toggle="pill" href="chisiamo.jsp"
+					role="tab" aria-controls="pills-servizi" aria-selected="false">Chi
+						siamo</a></li>
+
+			</ul>
+			<div class="tab-content" id="pills-tabContent">
+				<div class="tab-pane fade show active" id="pills-home"
+					role="tabpanel" aria-labelledby="pills-home-tab">
+					<!--Inserire i link-->
+				</div>
+				<div class="tab-pane fade" id="pills-profile" role="tabpanel"
+					aria-labelledby="pills-chiSiamo-tab">
+					<!--Inserire i link-->
+				</div>
+				<div class="tab-pane fade" id="pills-contattaci" role="tabpanel"
+					aria-labelledby="pills-contattaci-tab">
+					<!--Inserire i link-->
+				</div>
+				<div class="tab-pane fade" id="pills-login" role="tabpanel"
+					aria-labelledby="pills-login-tab">
+					<!--Inserire i link-->
+				</div>
+				<div class="tab-pane fade" id="pills-registrati" role="tabpanel"
+					aria-labelledby="pills-registrati-tab">
+					<!--Inserire i link-->
+				</div>
+			</div>
+		</div>
+		<div class="col-1"></div>
+	</div>
+</nav>

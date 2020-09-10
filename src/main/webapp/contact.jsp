@@ -12,7 +12,7 @@
 <link rel="stylesheet" type="text/css" href="css/index.css">
 </head>
 <body>
-	<%@include file="nav.html"%>
+	<%@include file="nav.jsp"%>
 	<form name="module">
 
 		<div class="container-fluid contatti col-5">
