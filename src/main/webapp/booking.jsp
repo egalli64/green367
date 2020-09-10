@@ -15,7 +15,15 @@
 </head>
 <body>
 	<%@include file="nav.html"%>
+	
+	
 	<div class="container-fluid" style="margin-top: 20px;">
+	<div class="row">
+	<div class="col-5"></div>
+	<b>
+	${osp}
+	</b>
+	</div>
 		<div class="row">
 			<div class="col-3"></div>
 			<div class="col-6 central styleBody-1">
@@ -30,7 +38,7 @@
 						<Label for="cf">Codice fiscale:</Label>
 						<input type="text" id="cf" name="cf">
 						<Label for="hospital">Ospedale:</Label>
-						<input type="text" id="hospital" name="hospital">
+						<input type="text" id="hospital" name="hospital" value="${osp}">
 						<Label for="date"> Data della visita:</Label>
 						<input type="date" id="date" name="date">
 					<button type="submit" class="btn btn-primary">Prenota</button>
