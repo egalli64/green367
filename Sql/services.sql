@@ -19,8 +19,8 @@ insert into  services (service_id, service_name) values ('8', 'Nefrologia');
 insert into  services (service_id, service_name) values ('9', 'Neurologia');
 insert into  services (service_id, service_name) values ('10', 'Ortopedia');
 insert into  services (service_id, service_name) values ('11', 'Otorinolaringoiatria');
-insert into  services (service_id, service_name) values ('12', 'Laboratorio Analisi');
-insert into  services (service_id, service_name) values ('13', 'Neurologia');
+insert into  services (service_id, service_name) values ('12', 'Pneumologia');
+insert into  services (service_id, service_name) values ('13', 'Oftalmologia');
 insert into  services (service_id, service_name) values ('14', 'Ginecologia');
 insert into  services (service_id, service_name) values ('15', 'Diabetologia');
 
