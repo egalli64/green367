@@ -59,7 +59,7 @@ public class User {
       return first_name;
   }
 
- public void setUser_firstname() {
+ public void setUser_firstname(String first_name) {
 	 this.first_name=first_name;
  }
  
@@ -67,7 +67,7 @@ public class User {
 	 return last_name;
  }
  
- public void setUser_lastname() {
+ public void setUser_lastname(String last_name) {
 	 this.last_name=last_name;
  }
  
@@ -75,7 +75,7 @@ public class User {
 	 return cap;
  }
  
- public void setUser_cap() {
+ public void setUser_cap(int cap) {
 	 this.cap=cap;
  }
  
@@ -83,7 +83,7 @@ public class User {
 	 return user_cf;
  }
  
- public void setUser_cf() {
+ public void setUser_cf(String user_cf) {
 	 this.user_cf=user_cf;
  }
  
@@ -91,7 +91,7 @@ public class User {
 	 return user_email;
  }
  
- public void setUser_email() {
+ public void setUser_email(String user_email) {
 	 this.user_email=user_email;
  }
   @Override
