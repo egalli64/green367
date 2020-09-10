@@ -18,7 +18,8 @@ insert into  hospital (hospital_id, hospital_name, hospital_address,hospital_cit
 insert into  hospital (hospital_id, hospital_name, hospital_address,hospital_city,hospital_telephone) values ('5','Ospedale Generale Provinciale - Saronno','Piazza Borella 1','Varese','0298051');
 insert into  hospital (hospital_id, hospital_name, hospital_address,hospital_city,hospital_telephone) values ('6','Ospedale Pesenti Fenaroli','Via Mazzini 88','Alzano Lombardo','0298051');
 insert into  hospital (hospital_id, hospital_name, hospital_address,hospital_city,hospital_telephone) values ('7','Presidio Ospedaliero di Rovato - E. Spalenza','Via Macina  16','Rovato','0298051');
-insert into  hospital (hospital_id, hospital_name, hospital_address,hospital_city,hospital_telephone) values ('8','Ospedale Uboldo ','Via Uboldo  21','Cernusco sul Naviglio','0298051');
-insert into  hospital (hospital_id, hospital_name, hospital_address,hospital_city,hospital_telephone) values ('9','Ospedale San Paolo ','Via Antonio di Rudina ','Milano','0298051');
+insert into  hospital (hospital_id, hospital_name, hospital_address,hospital_city,hospital_telephone) values ('8','Ospedale di Melzo','Via Pandina 3','Vizzolo Predabissi','0298051');
+insert into  hospital (hospital_id, hospital_name, hospital_address,hospital_city,hospital_telephone) values ('9','Ospedale Uboldo ','Via Uboldo  21','Cernusco sul Naviglio','0298051');
+insert into  hospital (hospital_id, hospital_name, hospital_address,hospital_city,hospital_telephone) values ('10','Ospedale San Paolo ','Via Antonio di Rudina 13','Milano','0298051');
 
 commit;
