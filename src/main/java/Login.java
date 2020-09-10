@@ -28,6 +28,8 @@ public class Login extends HttpServlet {
 		HttpSession session = request.getSession();
 		String inputUsername = (String) request.getParameter("loginUsername");
 		String inputPassword = (String) request.getParameter("loginPassword");
+		boolean start= true;
+		request.setAttribute("start", start);
 		LOG.warn("In input "+inputUsername);
 		LOG.warn("In input password "+inputPassword);
 		try (UsersDAO dao = new UsersDAO(ds)) {
@@ -37,15 +39,21 @@ public class Login extends HttpServlet {
 			if(inputPassword.equals(user.getUser_pw())){
 				session.setAttribute("correctLog", true);
 				session.setAttribute("username", inputUsername);
+				RequestDispatcher rd = request.getRequestDispatcher("index.jsp");
+				rd.forward(request, response);
 			}
 			else {
 				session.setAttribute("correctLog", false);
+				start=true;
+				request.setAttribute("start", start);
+				request.setAttribute("username", inputUsername);
+				RequestDispatcher rd = request.getRequestDispatcher("login.jsp");
+				rd.forward(request, response);
 			}
 		} catch (Exception e) {
 			LOG.error("Can't login: "+e.getMessage());
 		}
-		RequestDispatcher rd = request.getRequestDispatcher("index.jsp");
-		rd.forward(request, response);
+		
 
 	}
 
