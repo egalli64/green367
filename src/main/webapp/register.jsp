@@ -5,10 +5,13 @@
 <head>
 <meta charset="UTF-8">
 <title>Register page</title>
-    <link rel="stylesheet" href="css/register-css.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/index.css">
+<link rel="stylesheet" href="css/register-css.css">
+<link rel="stylesheet"
+	href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+<link
+	href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap"
+	rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/index.css">
 </head>
 <body>
 	<%@include file="nav.html"%>
@@ -17,7 +20,7 @@
 			<div class="col-3"></div>
 			<div class="col-6 central styleBody-1">
 				<form method="GET">
-					<legend id="legend-register">Registration form</legend>
+					<h3 id="legend-register">Registration form</h3>
 					<div class="form-row">
 						<div class="form-group col-md-6">
 							<label for="name-register">Name*</label> <input type="text"
@@ -96,6 +99,7 @@
 				</form>
 			</div>
 		</div>
-		<%@include file="footer.html"%>
+	</div>
+	<%@include file="footer.html"%>
 </body>
 </html>

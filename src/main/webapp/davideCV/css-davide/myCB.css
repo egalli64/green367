@@ -1,0 +1,55 @@
+input {
+    color: blue;
+}
+
+.NameId {
+  color: rgb(38, 38, 156);
+  font-family: 'Dancing Script', cursive;
+}
+
+.cur{
+font-family: 'Pacifico', cursive;
+}
+
+.par{
+font-family: 'Russo One', sans-serif;
+}
+div.comp{
+font-family: 'Gayathri', sans-serif;
+}
+
+
+#priv:hover {
+color: red;
+}
+
+#PB {
+color:green;
+}
+
+.red {
+color:red;
+}
+#ima{
+padding: 30px ;
+background-color:rgb(13, 21, 138);
+border: 3px solid rgb(113, 205, 228);
+border-collapse: collapse;
+}
+#ima:hover {
+width: 40%;
+}
+
+th{
+    color: blue;
+}
+
+.white{
+    color: white;
+}
+
+body{
+background-color: black;
+color: whitesmoke;
+
+}
