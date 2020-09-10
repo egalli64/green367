@@ -42,16 +42,17 @@
 										class="btn btn-success">
 								</div>
 							
-							<div class="col col-xl-5">
+							<div class="col c1 col-xl-5">
 							<c:if test="${start}">
-								<div id="err">
-									<b> Mi dispiace "${username}", user name o password errati
-									</b>
+								<div style="color:red">
+									 Mi dispiace "${username}", user name o password errati
+									
 								</div>
 
 							</c:if>
 						</div>
 						</div>
+						
 						</form>
 						<!-- <div class="col col-xl-2">
 							<div class="custom-control custom-switch">
