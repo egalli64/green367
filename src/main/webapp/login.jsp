@@ -19,7 +19,7 @@
 
 </head>
 <body>
-	<%@include file="nav.html"%>
+	<%@include file="nav.jsp"%>
 	
 
 			<div class="row">
