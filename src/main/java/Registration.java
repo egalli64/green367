@@ -46,12 +46,14 @@ public class Registration extends HttpServlet {
 		} catch (SQLException se) {
 			throw new IllegalStateException("Database issue " + se.getMessage());
 		}
+		//           DA FARE TRY WITH RESOURCES!!!!!
 		try { 
 			Statement stmt = conn.createStatement();
 				stmt.executeUpdate(
 						"insert into users (user_name, user_password, user_cf, first_name, last_name, cap, user_email) "
 						+ "values ('"+username+"','"+password+"','"+fiscalCode+"','"+name+"','"+surname+"','"+cap+"','"+email+"')");
 				conn.close();
+				stmt.close();
 				logger.warn("QUERY SHOULD BE EXECUTED");
 		} catch (Exception e) {
 

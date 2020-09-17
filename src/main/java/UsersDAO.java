@@ -46,9 +46,11 @@ public class UsersDAO implements AutoCloseable {
 		LOG.trace("called");
 		User result = new User();
 		try (Statement stmt = conn.createStatement(); //
-				ResultSet rs = stmt.executeQuery("select * from users where user_name = '"+userName+"'")) {
+				ResultSet rs = stmt.executeQuery("select * from users where user_name = '" + userName + "'")) {
 			while (rs.next()) {
-				result = new User(rs.getInt("user_id"), rs.getString("user_name"), rs.getString("user_password"));
+				result = new User(rs.getInt("user_id"), rs.getString("user_name"), rs.getString("user_password"),
+						rs.getString("first_name"), rs.getString("last_name"), rs.getInt("cap"),
+						rs.getString("user_email"), rs.getString("user_cf"));
 			}
 		} catch (SQLException se) {
 			throw new IllegalStateException("Database issue " + se.getMessage());
@@ -56,7 +58,6 @@ public class UsersDAO implements AutoCloseable {
 
 		return result;
 	}
-
 
 	@Override
 	public void close() throws IOException {

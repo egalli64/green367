@@ -39,6 +39,10 @@ public class Login extends HttpServlet {
 			if(inputPassword.equals(user.getUser_pw())){
 				session.setAttribute("correctLog", true);
 				session.setAttribute("username", inputUsername);
+				session.setAttribute("firstName", user.getUser_firstname());
+				session.setAttribute("lastName", user.getUser_lastname());
+				session.setAttribute("cap", user.getUser_cap());
+				session.setAttribute("fiscalCode", user.getUser_cf());
 				RequestDispatcher rd = request.getRequestDispatcher("index.jsp");
 				rd.forward(request, response);
 			}
