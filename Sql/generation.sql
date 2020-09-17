@@ -3,6 +3,7 @@ use green;
 
 drop table if exists bookings;
 drop table if exists times;
+drop table if exists exam_hospitals;
 drop table if exists exams;
 drop table if exists hospitals;
 drop table if exists users;
@@ -48,21 +49,38 @@ commit;
 create table exams(
 	exam_id integer primary key auto_increment,
     exam_name varchar(50),
-    exam_department varchar (50),
-    hospital_id integer,
-    
-    constraint exams_hospital_id_fk foreign key(hospital_id) references hospitals(hospital_id)
+    exam_department varchar (50)
     );
     
-insert into exams(exam_id,exam_name,exam_department,hospital_id) values ('1','Pulizia dentale','Odontoiatria','100');    
-insert into exams(exam_id,exam_name,exam_department,hospital_id) values ('2','Estrazione dente','Odontoiatria','100'); 
-insert into exams(exam_id,exam_name,exam_department,hospital_id) values ('3','Rimozione carie','Odontoiatria','100'); 
-insert into exams(exam_id,exam_name,exam_department,hospital_id) values ('4','Pulizia dentale','Odontoiatria','101'); 
-insert into exams(exam_id,exam_name,exam_department,hospital_id) values ('5','Estrazione dente','Odontoiatria','101'); 
-insert into exams(exam_id,exam_name,exam_department,hospital_id) values ('6','Rimozione carie','Odontoiatria','101'); 
-insert into exams(exam_id,exam_name,exam_department,hospital_id) values ('7','Controllo nei','Dermatologia','102'); 
-insert into exams(exam_id,exam_name,exam_department,hospital_id) values ('8','Controllo nei','Dermatologia','101'); 
-insert into exams(exam_id,exam_name,exam_department,hospital_id) values ('9','Controllo nei','Dermatologia','100'); 
+insert into exams(exam_id,exam_name,exam_department) values (1,'Pulizia dentale','Odontoiatria'); 
+insert into exams(exam_id,exam_name,exam_department) values (2,'Estrazione dente','Odontoiatria'); 
+insert into exams(exam_id,exam_name,exam_department) values (3,'Rimozione carie','Odontoiatria'); 
+insert into exams(exam_id,exam_name,exam_department) values (4,'Controllo nei','Dermatologia'); 
+
+commit;
+
+
+create table exam_hospitals(
+	hospital_id integer,
+    exam_id integer,
+
+	constraint exam_hospital_pk primary key(hospital_id, exam_id),
+    constraint examhospital_fk foreign key (hospital_id) references hospitals(hospital_id),
+	constraint exam_hospital_fk foreign key (exam_id) references exams(exam_id)
+);
+
+insert into exam_hospitals(hospital_id,exam_id) values(100,1);
+insert into exam_hospitals(hospital_id,exam_id) values(101,1);
+insert into exam_hospitals(hospital_id,exam_id) values(102,1);
+insert into exam_hospitals(hospital_id,exam_id) values(100,4);
+insert into exam_hospitals(hospital_id,exam_id) values(100,2);
+insert into exam_hospitals(hospital_id,exam_id) values(101,2);
+insert into exam_hospitals(hospital_id,exam_id) values(102,2);
+insert into exam_hospitals(hospital_id,exam_id) values(101,4);
+insert into exam_hospitals(hospital_id,exam_id) values(100,3);
+insert into exam_hospitals(hospital_id,exam_id) values(101,3);
+insert into exam_hospitals(hospital_id,exam_id) values(102,3);
+insert into exam_hospitals(hospital_id,exam_id) values(102,4);
 
 commit;
 
@@ -90,14 +108,22 @@ create table bookings(
     time_id integer,
     price varchar(10),
     
-        constraint bookings_hospital_id_fk foreign key(hospital_id) references hospitals(hospital_id),
+		constraint bookings_exam_id_fk foreign key (exam_id) references exams(exam_id),
+		constraint bookings_hospital_id_fk foreign key(hospital_id) references hospitals(hospital_id),
         constraint bookings_user_id_fk foreign key(user_id) references users(user_id),
-		constraint bookings_exam_id_fk foreign key(exam_id) references exams(exam_id),
-        constraint bookings_time_id_fk foreign key(time_id) references times(time_id)
+        constraint bookings_time_id_fk foreign key(time_id) references times(time_id),
+        constraint booking_uq unique(user_id, exam_id,hospital_id,booking_date,time_id),
+        constraint exam_uq unique(exam_id,hospital_id,booking_date,time_id),
+        constraint patientexam_uq unique(user_id,booking_date,time_id)
 );
 
+--  alter table bookings add constraint booking_uq unique(user_id, exam_id,hospital_id,booking_date,time_id);
+--  alter table bookings add constraint exam_uq unique(exam_id,hospital_id,booking_date,time_id);
+ -- alter table bookings add constraint patientexam_uq unique(user_id,booking_date,time_id);
+
+
 insert into bookings(booking_id,user_id,exam_id,hospital_id,booking_date,time_id,price) values ('1', '2','4','101','2020-10-10','1','100€');
-insert into bookings(booking_id,user_id,exam_id,hospital_id,booking_date,time_id,price) values ('2', '4','5','101','2020-10-11','2','100€');
-insert into bookings(booking_id,user_id,exam_id,hospital_id,booking_date,time_id,price) values ('3', '6','7','102','2020-10-12','3','100€');
+insert into bookings(booking_id,user_id,exam_id,hospital_id,booking_date,time_id,price) values ('2', '4','2','101','2020-10-11','2','100€');
+insert into bookings(booking_id,user_id,exam_id,hospital_id,booking_date,time_id,price) values ('3', '6','3','102','2020-10-12','3','100€');
         
 commit;
