@@ -1,9 +1,9 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-	pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=utf-8"
+	pageEncoding="utf-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
+<meta charset="utf-8">
 <title>Register page</title>
 <link rel="stylesheet" href="css/contact.css">
 <link rel="stylesheet"
@@ -39,7 +39,7 @@
 				La tua richiesta:<br> <input size="100" maxlength="100"
 					name="msg" type="text" onfocus="this.value=''"
 					value="Inserisci una breve descrizione della tua richiesta!">
-				<!-- <textarea name="comment" onfocus="cancelContent(this)" id="text" >Inserisci una breve descrizione della tua richiesta, un nostro operatore ti ricontatterà! </textarea> -->
+				<!-- <textarea name="comment" onfocus="cancelContent(this)" id="text" >Inserisci una breve descrizione della tua richiesta, un nostro operatore ti ricontatterÃ ! </textarea> -->
 			</div>
 
 			<input type="submit" value="Invia richiesta"
