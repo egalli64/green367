@@ -19,7 +19,7 @@ create table users(
 	cap integer
 );
 
-insert into users(user_id,user_name,user_email,user_password,first_name,last_name,user_cf,cap) values('1','francescogreen','francesco@green.it','Greenfrancesco1','Francesco','Restifo','FRCRTF93Z23B432H','20088');
+insert into users(user_id,user_name,user_email,user_password,first_name,last_name,user_cf,cap) values('1','francescogreen','francesco@green.it','Greenfrancesco1','Francesco','Fasciano','FRCRTF93Z23B432H','20088');
 insert into users(user_id,user_name,user_email,user_password,first_name,last_name,user_cf,cap) values('2','davidegreen','davide@green.it','Greendavide1','Davide','Lapi','LPADVD97B15C523Y','20096');
 insert into users(user_id,user_name,user_email,user_password,first_name,last_name,user_cf,cap) values('3','eelisagreen','elisa@green.it','Greenelisa1','Elisa','Mani','ELALSA96J21K467Z','20197');
 insert into users(user_id,user_name,user_email,user_password,first_name,last_name,user_cf,cap) values('4','patriziagreen','patrizia@green.it','Greenpatrizia1','Patrizia','Gironi','PTAGRI94F11L891S','20200');
@@ -34,12 +34,20 @@ create table hospitals(
     hospital_name varchar(50),
     hospital_address varchar(50),
     hospital_cap integer,
-    hospital_city varchar (20)
+    hospital_city varchar (50)
     );
     
-insert into hospitals(hospital_id,hospital_name,hospital_address,hospital_cap,hospital_city) values('100', 'Ospedale Sacco', 'Piazza Leonardo', 20100, 'Milano');
-insert into hospitals(hospital_id,hospital_name,hospital_address,hospital_cap,hospital_city) values('101', 'Ospedale Niguarda', 'Piazza Piola', 20100, 'Milano');
-insert into hospitals(hospital_id,hospital_name,hospital_address,hospital_cap,hospital_city) values('102', 'Ospedale San Raffaele', 'Cascina Gobba', 20100, 'Milano');
+insert into hospitals(hospital_id,hospital_name,hospital_address,hospital_cap,hospital_city) values('100', 'Ospedale di Vizzolo Pedrabissi', 'Via Pandina 1', 20100, 'Vizzolo Pedrabissi');
+insert into hospitals(hospital_id,hospital_name,hospital_address,hospital_cap,hospital_city) values('101', 'Ospedale Bolognini', 'Via Paderno 21', 20101, 'Seriate');
+insert into hospitals(hospital_id,hospital_name,hospital_address,hospital_cap,hospital_city) values('102', 'Ospedale Serbelloni', 'Via Bellini 5', 20102, 'Gorgonzola');
+insert into hospitals(hospital_id,hospital_name,hospital_address,hospital_cap,hospital_city) values('103', 'Presidio Ospedaliero Territoriale di Vaprio d Adda', 'Via Don Moletta 22', 20103, 'Vaprio d Adda');
+insert into hospitals(hospital_id,hospital_name,hospital_address,hospital_cap,hospital_city) values('104', 'Ospedale Pesenti Fenaroli', 'Via Mazzini', 20105, 'Alzano Lombardo');
+insert into hospitals(hospital_id,hospital_name,hospital_address,hospital_cap,hospital_city) values('105', 'Presidio Ospedaliero di Rovato', 'Via Macina', 20106, 'Rovato');
+insert into hospitals(hospital_id,hospital_name,hospital_address,hospital_cap,hospital_city) values('106', 'Ospedale Uboldo', 'Via Uboldo', 20107, 'Cernusco sul Naviglio');
+insert into hospitals(hospital_id,hospital_name,hospital_address,hospital_cap,hospital_city) values('107', 'Ospedale San Paolo', 'Via Antonio di Rudina', 20107, 'Milano');
+insert into hospitals(hospital_id,hospital_name,hospital_address,hospital_cap,hospital_city) values('108', 'Ospedale Generale di Saronno', 'Piazza Borella 1', 20107, 'Varese');
+
+
 
 commit;
 
@@ -48,15 +56,24 @@ commit;
 
 create table exams(
 	exam_id integer primary key auto_increment,
-    exam_name varchar(50),
-    exam_department varchar (50)
+    exam_name varchar(50)
     );
     
-insert into exams(exam_id,exam_name,exam_department) values (1,'Pulizia dentale','Odontoiatria'); 
-insert into exams(exam_id,exam_name,exam_department) values (2,'Estrazione dente','Odontoiatria'); 
-insert into exams(exam_id,exam_name,exam_department) values (3,'Rimozione carie','Odontoiatria'); 
-insert into exams(exam_id,exam_name,exam_department) values (4,'Controllo nei','Dermatologia'); 
-
+insert into exams(exam_id,exam_name) values (1,'Cardiologia'); 
+insert into exams(exam_id,exam_name) values (2,'Oculistica'); 
+insert into exams(exam_id,exam_name) values (3,'Dietologia'); 
+insert into exams(exam_id,exam_name) values (4,'Urologia'); 
+insert into exams(exam_id,exam_name) values (5,'Radiologia'); 
+insert into exams(exam_id,exam_name) values (6,'Allergologia'); 
+insert into exams(exam_id,exam_name) values (7,'Endocrinologia'); 
+insert into exams(exam_id,exam_name) values (8,'Nefrologia'); 
+insert into exams(exam_id,exam_name) values (9,'Neurologia'); 
+insert into exams(exam_id,exam_name) values (10,'Ortopedia'); 
+insert into exams(exam_id,exam_name) values (11,'Otorinolaringoiatria'); 
+insert into exams(exam_id,exam_name) values (12,'Giencologia');
+insert into exams(exam_id,exam_name) values (13,'Diabetologia');
+insert into exams(exam_id,exam_name) values (14,'Pneumologia'); 
+  
 commit;
 
 -- spostare primary key 
@@ -76,16 +93,111 @@ create table exam_hospitals(
 insert into exam_hospitals(coupled_id,hospital_id,exam_id) values(1,100,1);
 insert into exam_hospitals(coupled_id,hospital_id,exam_id) values(2,101,1);
 insert into exam_hospitals(coupled_id,hospital_id,exam_id) values(3,102,1);
-insert into exam_hospitals(coupled_id,hospital_id,exam_id) values(4,100,4);
-insert into exam_hospitals(coupled_id,hospital_id,exam_id) values(5,100,2);
-insert into exam_hospitals(coupled_id,hospital_id,exam_id) values(6,101,2);
-insert into exam_hospitals(coupled_id,hospital_id,exam_id) values(7,102,2);
-insert into exam_hospitals(coupled_id,hospital_id,exam_id) values(8,101,4);
-insert into exam_hospitals(coupled_id,hospital_id,exam_id) values(9,100,3);
-insert into exam_hospitals(coupled_id,hospital_id,exam_id) values(10,101,3);
-insert into exam_hospitals(coupled_idhospital_id,exam_id) values(11,102,3);
-insert into exam_hospitals(coupled_id,hospital_id,exam_id) values(12,102,4);
-
+insert into exam_hospitals(coupled_id,hospital_id,exam_id) values(4,103,1);
+insert into exam_hospitals(coupled_id,hospital_id,exam_id) values(5,104,1);
+insert into exam_hospitals(coupled_id,hospital_id,exam_id) values(6,105,1);
+insert into exam_hospitals(coupled_id,hospital_id,exam_id) values(7,106,1);
+insert into exam_hospitals(coupled_id,hospital_id,exam_id) values(8,107,1);
+insert into exam_hospitals(coupled_id,hospital_id,exam_id) values(9,108,1);
+insert into exam_hospitals(coupled_id,hospital_id,exam_id) values(10,100,2);
+insert into exam_hospitals(coupled_id,hospital_id,exam_id) values(11,101,2);
+insert into exam_hospitals(coupled_id,hospital_id,exam_id) values(12,102,2);
+insert into exam_hospitals(coupled_id,hospital_id,exam_id) values(13,103,2);
+insert into exam_hospitals(coupled_id,hospital_id,exam_id) values(14,104,2);
+insert into exam_hospitals(coupled_id,hospital_id,exam_id) values(15,105,2);
+insert into exam_hospitals(coupled_id,hospital_id,exam_id) values(16,106,2);
+insert into exam_hospitals(coupled_id,hospital_id,exam_id) values(17,107,2);
+insert into exam_hospitals(coupled_id,hospital_id,exam_id) values(18,108,2);
+insert into exam_hospitals(coupled_id,hospital_id,exam_id) values(19,100,3);
+insert into exam_hospitals(coupled_id,hospital_id,exam_id) values(20,101,3);
+insert into exam_hospitals(coupled_id,hospital_id,exam_id) values(21,102,3);
+insert into exam_hospitals(coupled_id,hospital_id,exam_id) values(22,103,3);
+insert into exam_hospitals(coupled_id,hospital_id,exam_id) values(23,104,3);
+insert into exam_hospitals(coupled_id,hospital_id,exam_id) values(24,105,3);
+insert into exam_hospitals(coupled_id,hospital_id,exam_id) values(25,106,3);
+insert into exam_hospitals(coupled_id,hospital_id,exam_id) values(26,107,3);
+insert into exam_hospitals(coupled_id,hospital_id,exam_id) values(27,108,3);
+insert into exam_hospitals(coupled_id,hospital_id,exam_id) values(28,100,4);
+insert into exam_hospitals(coupled_id,hospital_id,exam_id) values(29,101,4);
+insert into exam_hospitals(coupled_id,hospital_id,exam_id) values(30,102,4);
+insert into exam_hospitals(coupled_id,hospital_id,exam_id) values(31,103,4);
+insert into exam_hospitals(coupled_id,hospital_id,exam_id) values(32,104,4);
+insert into exam_hospitals(coupled_id,hospital_id,exam_id) values(33,105,4);
+insert into exam_hospitals(coupled_id,hospital_id,exam_id) values(34,106,4);
+insert into exam_hospitals(coupled_id,hospital_id,exam_id) values(35,107,4);
+insert into exam_hospitals(coupled_id,hospital_id,exam_id) values(36,108,4);
+insert into exam_hospitals(coupled_id,hospital_id,exam_id) values(37,100,5);
+insert into exam_hospitals(coupled_id,hospital_id,exam_id) values(38,101,5);
+insert into exam_hospitals(coupled_id,hospital_id,exam_id) values(39,102,5);
+insert into exam_hospitals(coupled_id,hospital_id,exam_id) values(40,103,5);
+insert into exam_hospitals(coupled_id,hospital_id,exam_id) values(41,104,5);
+insert into exam_hospitals(coupled_id,hospital_id,exam_id) values(42,105,5);
+insert into exam_hospitals(coupled_id,hospital_id,exam_id) values(43,107,5);
+insert into exam_hospitals(coupled_id,hospital_id,exam_id) values(44,108,5);
+insert into exam_hospitals(coupled_id,hospital_id,exam_id) values(45,100,6);
+insert into exam_hospitals(coupled_id,hospital_id,exam_id) values(46,101,7);
+insert into exam_hospitals(coupled_id,hospital_id,exam_id) values(47,102,7);
+insert into exam_hospitals(coupled_id,hospital_id,exam_id) values(48,103,7);
+insert into exam_hospitals(coupled_id,hospital_id,exam_id) values(49,104,7);
+insert into exam_hospitals(coupled_id,hospital_id,exam_id) values(50,105,7);
+insert into exam_hospitals(coupled_id,hospital_id,exam_id) values(51,107,7);
+insert into exam_hospitals(coupled_id,hospital_id,exam_id) values(52,108,7);
+insert into exam_hospitals(coupled_id,hospital_id,exam_id) values(53,100,8);
+insert into exam_hospitals(coupled_id,hospital_id,exam_id) values(54,101,8);
+insert into exam_hospitals(coupled_id,hospital_id,exam_id) values(55,102,8);
+insert into exam_hospitals(coupled_id,hospital_id,exam_id) values(56,103,8);
+insert into exam_hospitals(coupled_id,hospital_id,exam_id) values(57,104,8);
+insert into exam_hospitals(coupled_id,hospital_id,exam_id) values(58,105,8);
+insert into exam_hospitals(coupled_id,hospital_id,exam_id) values(59,107,8);
+insert into exam_hospitals(coupled_id,hospital_id,exam_id) values(60,108,8);
+insert into exam_hospitals(coupled_id,hospital_id,exam_id) values(61,100,9);
+insert into exam_hospitals(coupled_id,hospital_id,exam_id) values(62,101,9);
+insert into exam_hospitals(coupled_id,hospital_id,exam_id) values(63,102,9);
+insert into exam_hospitals(coupled_id,hospital_id,exam_id) values(64,103,9);
+insert into exam_hospitals(coupled_id,hospital_id,exam_id) values(65,104,9);
+insert into exam_hospitals(coupled_id,hospital_id,exam_id) values(66,105,9);
+insert into exam_hospitals(coupled_id,hospital_id,exam_id) values(67,107,9);
+insert into exam_hospitals(coupled_id,hospital_id,exam_id) values(68,108,9);
+insert into exam_hospitals(coupled_id,hospital_id,exam_id) values(69,100,10);
+insert into exam_hospitals(coupled_id,hospital_id,exam_id) values(70,101,10);
+insert into exam_hospitals(coupled_id,hospital_id,exam_id) values(71,102,10);
+insert into exam_hospitals(coupled_id,hospital_id,exam_id) values(72,103,10);
+insert into exam_hospitals(coupled_id,hospital_id,exam_id) values(73,104,10);
+insert into exam_hospitals(coupled_id,hospital_id,exam_id) values(74,105,10);
+insert into exam_hospitals(coupled_id,hospital_id,exam_id) values(75,107,10);
+insert into exam_hospitals(coupled_id,hospital_id,exam_id) values(76,108,10);
+insert into exam_hospitals(coupled_id,hospital_id,exam_id) values(77,100,11);
+insert into exam_hospitals(coupled_id,hospital_id,exam_id) values(78,101,11);
+insert into exam_hospitals(coupled_id,hospital_id,exam_id) values(79,102,11);
+insert into exam_hospitals(coupled_id,hospital_id,exam_id) values(80,103,11);
+insert into exam_hospitals(coupled_id,hospital_id,exam_id) values(81,104,11);
+insert into exam_hospitals(coupled_id,hospital_id,exam_id) values(82,105,11);
+insert into exam_hospitals(coupled_id,hospital_id,exam_id) values(83,107,11);
+insert into exam_hospitals(coupled_id,hospital_id,exam_id) values(84,108,11);
+insert into exam_hospitals(coupled_id,hospital_id,exam_id) values(85,100,12);
+insert into exam_hospitals(coupled_id,hospital_id,exam_id) values(86,101,12);
+insert into exam_hospitals(coupled_id,hospital_id,exam_id) values(87,102,12);
+insert into exam_hospitals(coupled_id,hospital_id,exam_id) values(88,103,12);
+insert into exam_hospitals(coupled_id,hospital_id,exam_id) values(89,104,12);
+insert into exam_hospitals(coupled_id,hospital_id,exam_id) values(90,105,12);
+insert into exam_hospitals(coupled_id,hospital_id,exam_id) values(91,107,12);
+insert into exam_hospitals(coupled_id,hospital_id,exam_id) values(92,108,12);
+insert into exam_hospitals(coupled_id,hospital_id,exam_id) values(93,100,13);
+insert into exam_hospitals(coupled_id,hospital_id,exam_id) values(94,101,13);
+insert into exam_hospitals(coupled_id,hospital_id,exam_id) values(95,102,13);
+insert into exam_hospitals(coupled_id,hospital_id,exam_id) values(96,103,13);
+insert into exam_hospitals(coupled_id,hospital_id,exam_id) values(97,104,13);
+insert into exam_hospitals(coupled_id,hospital_id,exam_id) values(98,105,13);
+insert into exam_hospitals(coupled_id,hospital_id,exam_id) values(99,107,13);
+insert into exam_hospitals(coupled_id,hospital_id,exam_id) values(100,108,13);
+insert into exam_hospitals(coupled_id,hospital_id,exam_id) values(101,100,14);
+insert into exam_hospitals(coupled_id,hospital_id,exam_id) values(102,101,14);
+insert into exam_hospitals(coupled_id,hospital_id,exam_id) values(103,102,14);
+insert into exam_hospitals(coupled_id,hospital_id,exam_id) values(104,103,14);
+insert into exam_hospitals(coupled_id,hospital_id,exam_id) values(105,104,14);
+insert into exam_hospitals(coupled_id,hospital_id,exam_id) values(106,105,14);
+insert into exam_hospitals(coupled_id,hospital_id,exam_id) values(107,107,14);
+insert into exam_hospitals(coupled_id,hospital_id,exam_id) values(108,108,14);
 commit;
 
 create table times(
@@ -96,7 +208,11 @@ create table times(
 insert into times(time_id,time_real) values ('1','10:30');
 insert into times(time_id,time_real) values ('2','11:30');
 insert into times(time_id,time_real) values ('3','12:30');
-
+insert into times(time_id,time_real) values ('4','13:30');
+insert into times(time_id,time_real) values ('5','14:30');
+insert into times(time_id,time_real) values ('6','15:30');
+insert into times(time_id,time_real) values ('7','16:30');
+insert into times(time_id,time_real) values ('8','17:30');
     
 commit;
 
