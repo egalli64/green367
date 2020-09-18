@@ -46,11 +46,12 @@ public class Booking extends HttpServlet {
 	           mappa.put("108","OSPEDALE S. MARIA DELLE STELLE MELZO");
 	           mappa.put("109","OSPEDALE UBOLDO - CERNUSCO S/NAVIGLIO");
 	           mappa.put("10","OSPEDALE S. PAOLO - MILANO");
-	           for(Integer i=1; i<=mappa.size();i++) {
-	        	   String id= request.getParameter(i.toString());
+	           var entryset = mappa.entrySet();
+	           for(var item : entryset) {
+	        	   String id= request.getParameter(item.getKey().toString());
 	        	   
 	        	   if(id!=null) {
-	        		   i=mappa.size();
+	        		   
 	        		   String ospedaleName= mappa.get(id);
 	        		   request.setAttribute("osp", ospedaleName);
 	        		   try(BookingDao bd= new BookingDao(ds)){
