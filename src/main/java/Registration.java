@@ -41,21 +41,36 @@ public class Registration extends HttpServlet {
 		String fiscalCode = request.getParameter("fiscalCode");
 		int cap = Integer.parseInt(request.getParameter("cap"));
 		String password = request.getParameter("password");
+		boolean wrongRegistration = true;
 		try {
 			this.conn = ds.getConnection();
 		} catch (SQLException se) {
 			throw new IllegalStateException("Database issue " + se.getMessage());
 		}
-		//           DA FARE TRY WITH RESOURCES!!!!!
-		try(Statement stmt = conn.createStatement()) { 
+		try (PreparedStatement prpStmt = conn.prepareStatement("select user_name from users where user_name = ?",
+				ResultSet.TYPE_SCROLL_SENSITIVE, ResultSet.CONCUR_UPDATABLE)) {
+			prpStmt.setString(1, username);
+			ResultSet rs = prpStmt.executeQuery();
+			if(!rs.first()) {
+				wrongRegistration = false;
+			}
+		} catch (Exception e) {
+			logger.warn("No connection in select " + e.getMessage());
+		}
+		if (!wrongRegistration) {
+			try (Statement stmt = conn.createStatement()) {
 				stmt.executeUpdate(
 						"insert into users (user_name, user_password, user_cf, first_name, last_name, cap, user_email) "
-						+ "values ('"+username+"','"+password+"','"+fiscalCode+"','"+name+"','"+surname+"','"+cap+"','"+email+"')");
-				conn.close();
+								+ "values ('" + username + "','" + password + "','" + fiscalCode + "','" + name + "','"
+								+ surname + "','" + cap + "','" + email + "')");
 				logger.warn("QUERY SHOULD BE EXECUTED");
-		} catch (Exception e) {
+			} catch (Exception e) {
+				logger.warn("Not correctly registered!");
+			}
+		} else {
+			request.setAttribute("wrongRegistration", wrongRegistration);
 		}
-		RequestDispatcher rd = request.getRequestDispatcher("index.jsp");
+		RequestDispatcher rd = request.getRequestDispatcher(!wrongRegistration ? "index.jsp" : "register.jsp");
 		rd.forward(request, response);
 	}
 

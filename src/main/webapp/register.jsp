@@ -17,6 +17,14 @@
 <body>
 	<%@include file="nav.jsp"%>
 	<div class="container-fluid" style="margin-top: 20px;">
+		<c:if test="${wrongRegistration}">
+		<div class="row">
+		<div class=col-3></div>
+		<div class="col-6">
+		<p style="color:red;">Attenzione, dati inseriti già presenti nel database</p>
+		</div>
+		</div>
+		</c:if>
 		<div class="row">
 			<div class="col-3"></div>
 			<div class="col-6 central styleBody-1">
