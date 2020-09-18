@@ -14,7 +14,7 @@
 <link rel="stylesheet" type="text/css" href="css/index.css">
 </head>
 <body>
-	<%@include file="nav.html"%>
+	<%@include file="nav.jsp"%>
 	
 	
 	<div class="container-fluid" style="margin-top: 20px;">
