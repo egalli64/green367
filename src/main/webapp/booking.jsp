@@ -30,17 +30,17 @@
 				<form method="GET">
 					<h3 id="legend-register">Modulo di prenotazione</h3>
 						<Label for="first_name">Nome:</Label>
-						<input type="text" id="first name" name="first_name" value ="${firstName}">
+						<input type="text" class="form-control" id="first name" name="first_name" value ="${firstName}">
 						<Label for="last_name">Cognome:</Label>
-						<input type="text" id="last name" name="last_name" value = "${lastName}">
-						<Label for="address">Indirizzo:</Label>
-						<input type="text" id="address" name="address">
+						<input type="text" class="form-control" id="last name" name="last_name" value = "${lastName}">
 						<Label for="cf">Codice fiscale:</Label>
-						<input type="text" id="cf" name="cf" value = "${fiscalCode}">
+						<input type="text" class="form-control" id="cf" name="cf" value = "${fiscalCode}">
 						<Label for="hospital">Ospedale:</Label>
-						<input type="text" id="hospital" name="hospital" value="${osp}">
+						<input type="text" class="form-control" id="hospital" name="hospital" value="${osp}">
 						<Label for="date"> Data della visita:</Label>
-						<input type="date" id="date" name="date">
+						<input type="date" class="form-control" id="date" name="date">
+						<Label for="time"> Orario della visita:</Label>
+						<input type="time" class="form-control" id="time" name="time">
 					<button type="submit" class="btn btn-primary">Prenota</button>
 				</form>
 			</div>
