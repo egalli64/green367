@@ -88,7 +88,7 @@
 	<!-- Footer Links -->
 
 	<hr>
-
+<c:if test="${!correctLog}">
 	<!-- Call to action -->
 	<ul class="list-unstyled list-inline text-center py-2">
 		<li class="list-inline-item">
@@ -100,6 +100,6 @@
 	<!-- Call to action -->
 
 	<hr>
-
+</c:if>
 </footer>
 <!-- Footer -->
