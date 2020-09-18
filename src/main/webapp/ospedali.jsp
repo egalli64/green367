@@ -18,7 +18,7 @@
 					OSPEDALE DI VIZZOLO PREDABISSI</a>
 		
 					<form action="booking">
-					<button class="btn btn-success" name="1" value="1">Prenota</button>
+					<button class="btn btn-success" name="100" value="100">Prenota</button>
 					</form>
 			</li>
 					
@@ -26,49 +26,49 @@
 			<li class="list-group-item"  ><a href="l_ospedali/ospedale2.jsp">
 					OSPEDALE BOLOGNINI - SERIATE </a>
 					<form action="booking">
-					<button class="btn btn-success"  name="2" value="2">Prenota</button>
+					<button class="btn btn-success"  name="102" value="102">Prenota</button>
 					</form>
 			</li>
 			<li class="list-group-item"><a href="l_ospedali/ospedale3.jsp">
 					OSPEDALE SERBELLONI - GORGONZOLA </a>
 					<form action="booking">
-					<button class="btn btn-success"  name="3" value="3">Prenota</button>
+					<button class="btn btn-success"  name="103" value="103">Prenota</button>
 					</form>
 					</li>
 			<li class="list-group-item"><a href="l_ospedali/ospedale4.jsp">
 					OSPEDALE CROTTA OLTROCCHI-VAPRIO D'ADDA </a>
 					<form action="booking">
-					<button class="btn btn-success"  name="4" value="4">Prenota</button>
+					<button class="btn btn-success"  name="104" value="104">Prenota</button>
 					</form>
 					</li>
 			<li class="list-group-item"><a href="l_ospedali/ospedale5.jsp">
 					OSP. GENERALE PROVINCIALE - SARONNO </a>
 					<form action="booking">
-					<button class="btn btn-success"  name="5" value="5">Prenota</button>
+					<button class="btn btn-success"  name="105" value="105">Prenota</button>
 					</form>
 					</li>
 			<li class="list-group-item"><a href="l_ospedali/ospedale6.jsp">
 					OSPEDALE PESENTI FENAROLI - ALZANO L. </a>
 					<form action="booking">
-					<button class="btn btn-success"  name="6" value="6">Prenota</button>
+					<button class="btn btn-success"  name="106" value="106">Prenota</button>
 					</form>
 					</li>
 			<li class="list-group-item"><a href="l_ospedali/ospedale7.jsp">
 					PRESIDIO OSPEDALIERO DI ROVATO </a>
 					<form action="booking">
-					<button class="btn btn-success"  name="7" value="7">Prenota</button>
+					<button class="btn btn-success"  name="107" value="107">Prenota</button>
 					</form>
 					</li>
 			<li class="list-group-item"><a href="l_ospedali/ospedale8.jsp">
 					OSPEDALE S. MARIA DELLE STELLE MELZO </a>
 					<form action="booking">
-					<button class="btn btn-success"  name="8" value="8">Prenota</button>
+					<button class="btn btn-success"  name="108" value="108">Prenota</button>
 					</form>
 					</li>
 			<li class="list-group-item"><a href="l_ospedali/ospedale9.jsp">
 					OSPEDALE UBOLDO - CERNUSCO S/NAVIGLIO </a>
 					<form action="booking">
-					<button class="btn btn-success"  name="9" value="9">Prenota</button>
+					<button class="btn btn-success"  name="109" value="109">Prenota</button>
 					</form>
 					</li>
 			<li class="list-group-item"><a href="l_ospedali/ospedale10.jsp">
