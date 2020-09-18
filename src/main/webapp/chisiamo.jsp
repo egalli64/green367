@@ -120,7 +120,7 @@
 				href="./contact.jsp"> contattarci </a> !
 		</p>
 	</div>
-	<%@include file="footer.html"%>
+	<%@include file="footer.jsp"%>
 
 </body>
 </html>
