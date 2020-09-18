@@ -36,10 +36,10 @@ public class Booking extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 	           Map<String, String> mappa= new HashMap<String,String>();
-	           mappa.put("100", "Ospedale di Vizzolo Predissi");
+	           mappa.put("100", "OSPEDALE DI VIZZOLO PEDRABISSI");
 	           mappa.put("102","OSPEDALE BOLOGNINI - SERIATE");
 	           mappa.put("103","OSPEDALE SERBELLONI - GORGONZOLA");
-	           mappa.put("104","OSPEDALE CROTTA OLTROCCHI-VAPRIO D'ADDA");
+	           mappa.put("104","OSPEDALE CROTTA OLTROCCHI-VAPRIO D ADDA");
 	           mappa.put("105","OSP. GENERALE PROVINCIALE - SARONNO");
 	           mappa.put("106","OSPEDALE PESENTI FENAROLI - ALZANO L.");
 	           mappa.put("107","PRESIDIO OSPEDALIERO DI ROVATO");

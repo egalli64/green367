@@ -37,16 +37,16 @@ create table hospitals(
     hospital_city varchar (50)
     );
 
-insert into hospitals(hospital_id,hospital_name,hospital_address,hospital_cap,hospital_city) values('100', 'Ospedale di Vizzolo Pedrabissi', 'Via Pandina 1', 20100, 'Vizzolo Pedrabissi');
-insert into hospitals(hospital_id,hospital_name,hospital_address,hospital_cap,hospital_city) values('102', 'Ospedale Bolognini', 'Via Paderno 21', 20101, 'Seriate');
-insert into hospitals(hospital_id,hospital_name,hospital_address,hospital_cap,hospital_city) values('103', 'Ospedale Serbelloni', 'Via Bellini 5', 20102, 'Gorgonzola');
-insert into hospitals(hospital_id,hospital_name,hospital_address,hospital_cap,hospital_city) values('104', 'Presidio Ospedaliero Territoriale di Vaprio d Adda', 'Via Don Moletta 22', 20103, 'Vaprio d Adda');
-insert into hospitals(hospital_id,hospital_name,hospital_address,hospital_cap,hospital_city) values('106', 'Ospedale Pesenti Fenaroli', 'Via Mazzini', 20105, 'Alzano Lombardo');
-insert into hospitals(hospital_id,hospital_name,hospital_address,hospital_cap,hospital_city) values('107', 'Presidio Ospedaliero di Rovato', 'Via Macina', 20106, 'Rovato');
-insert into hospitals(hospital_id,hospital_name,hospital_address,hospital_cap,hospital_city) values('109', 'Ospedale Uboldo', 'Via Uboldo', 20107, 'Cernusco sul Naviglio');
-insert into hospitals(hospital_id,hospital_name,hospital_address,hospital_cap,hospital_city) values('10', 'Ospedale San Paolo', 'Via Antonio di Rudina', 20107, 'Milano');
-insert into hospitals(hospital_id,hospital_name,hospital_address,hospital_cap,hospital_city) values('105', 'Ospedale Generale di Saronno', 'Piazza Borella 1', 20107, 'Varese');
-insert into hospitals(hospital_id,hospital_name,hospital_address,hospital_cap,hospital_city) values('108', 'Ospedale Santa Maria delle Stelle', 'Melzo', 20108, 'Melzo');
+insert into hospitals(hospital_id,hospital_name,hospital_address,hospital_cap,hospital_city) values('100', 'OSPEDALE DI VIZZOLO PREDABISSI', 'Via Pandina 1', 20100, 'Vizzolo Pedrabissi');
+insert into hospitals(hospital_id,hospital_name,hospital_address,hospital_cap,hospital_city) values('102', 'OSPEDALE BOLOGNINI - SERIATE', 'Via Paderno 21', 20101, 'Seriate');
+insert into hospitals(hospital_id,hospital_name,hospital_address,hospital_cap,hospital_city) values('103', 'OSPEDALE SERBELLONI - GORGONZOLA', 'Via Bellini 5', 20102, 'Gorgonzola');
+insert into hospitals(hospital_id,hospital_name,hospital_address,hospital_cap,hospital_city) values('104', 'OSPEDALE CROTTA OLTROCCHI-VAPRIO D ADDA', 'Via Don Moletta 22', 20103, 'Vaprio d Adda');
+insert into hospitals(hospital_id,hospital_name,hospital_address,hospital_cap,hospital_city) values('106', 'OSPEDALE PESENTI FENAROLI - ALZANO L.', 'Via Mazzini', 20105, 'Alzano Lombardo');
+insert into hospitals(hospital_id,hospital_name,hospital_address,hospital_cap,hospital_city) values('107', 'PRESIDIO OSPEDALIERO DI ROVATO', 'Via Macina', 20106, 'Rovato');
+insert into hospitals(hospital_id,hospital_name,hospital_address,hospital_cap,hospital_city) values('109', 'OSPEDALE UBOLDO - CERNUSCO S/NAVIGLIO', 'Via Uboldo', 20107, 'Cernusco sul Naviglio');
+insert into hospitals(hospital_id,hospital_name,hospital_address,hospital_cap,hospital_city) values('10', 'OSPEDALE S. PAOLO - MILANO', 'Via Antonio di Rudina', 20107, 'Milano');
+insert into hospitals(hospital_id,hospital_name,hospital_address,hospital_cap,hospital_city) values('105', 'OSP. GENERALE PROVINCIALE - SARONNO', 'Piazza Borella 1', 20107, 'Varese');
+insert into hospitals(hospital_id,hospital_name,hospital_address,hospital_cap,hospital_city) values('108', 'OSPEDALE S. MARIA DELLE STELLE MELZO', 'Melzo', 20108, 'Melzo');
 
 
 
